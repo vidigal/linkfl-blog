@@ -4,12 +4,13 @@
 
 :root {
   --bg-color: #ffffff;
-  --text-color: #111827;
-  --text-muted: #6b7280;
-  --brand-color: #2563eb;
-  --brand-hover: #1d4ed8;
-  --border-color: #e5e7eb;
-  --radius: 8px;
+  --bg-secondary: #fafafa;
+  --text-color: #1a1a1a;
+  --text-muted: #666666;
+  --brand-color: #000000;
+  --brand-hover: #333333;
+  --border-color: #eaeaea;
+  --radius: 12px;
   --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -23,9 +24,10 @@ body {
   font-family: var(--font-sans);
   background-color: var(--bg-color);
   color: var(--text-color);
-  line-height: 1.6;
+  line-height: 1.7;
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -40,15 +42,15 @@ a:hover {
 
 /* Layout */
 .container {
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 24px;
 }
 
 .header {
-  padding: 40px 0;
-  border-bottom: 1px solid var(--border-color);
-  margin-bottom: 40px;
+  padding: 50px 0;
+  border-bottom: none;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,26 +67,26 @@ a:hover {
 }
 
 .footer {
-  margin-top: 80px;
-  padding: 40px 0;
+  margin-top: 100px;
+  padding: 60px 0;
   border-top: 1px solid var(--border-color);
   text-align: center;
   color: var(--text-muted);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 /* Base Typo */
 h1, h2, h3, h4 {
   color: var(--text-color);
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
   margin-top: 2em;
-  margin-bottom: 0.5em;
-  letter-spacing: -0.025em;
+  margin-bottom: 0.75em;
+  letter-spacing: -0.03em;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   margin-top: 0;
   margin-bottom: 1em;
 }
@@ -94,7 +96,7 @@ h2 {
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.6em;
 }
 
 ul, ol {
@@ -124,11 +126,11 @@ li {
 
 /* Call to Action */
 .cta-box {
-  background: #f8fafc;
+  background: var(--bg-secondary);
   border: 1px solid var(--border-color);
   border-radius: var(--radius);
-  padding: 30px;
-  margin: 40px 0;
+  padding: 40px;
+  margin: 60px 0;
   text-align: center;
 }
 
@@ -141,35 +143,83 @@ li {
   display: inline-block;
   background-color: var(--brand-color);
   color: #fff;
-  padding: 12px 24px;
+  padding: 14px 28px;
   border-radius: var(--radius);
   font-weight: 600;
-  margin-top: 10px;
-  transition: background-color 0.2s;
+  font-size: 1.05rem;
+  margin-top: 15px;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .btn:hover {
   background-color: var(--brand-hover);
   color: #fff;
   text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .post-list {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .post-item {
-  margin-bottom: 30px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 24px;
+  transition: all 0.2s ease;
+  background: var(--bg-color);
+  margin-bottom: 0; /* Handled by gap on parent */
+}
+
+.post-item:hover {
+  border-color: #d1d5db;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -2px rgba(0,0,0,0.025);
+  transform: translateY(-2px);
 }
 
 .post-item h2 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   font-size: 1.5rem;
 }
 
+.post-item h2 a {
+  color: var(--text-color);
+}
+
+.post-item h2 a:hover {
+  color: var(--brand-hover);
+  text-decoration: none;
+}
+
+.post-item p {
+  margin-bottom: 0;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
 .post-meta {
+  display: block;
   font-size: 0.9rem;
   color: var(--text-muted);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+/* Make content images responsive */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin: 30px 0;
+}
+
+.post-content p {
+  color: var(--text-color); /* slightly stronger than base text-muted if any */
 }

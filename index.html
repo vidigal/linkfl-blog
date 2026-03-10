@@ -1,35 +1,101 @@
 ---
 layout: default
 ---
-<div class="home">
-    <div style="text-align: center; margin-bottom: 60px;">
-        <h1 style="font-size: 3rem; margin-bottom: 20px;">Crie seu site profissional</h1>
-        <p style="font-size: 1.2rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 30px;">
-            Dicas de SEO, marketing digital e guias completos para construir a presença online que o seu negócio merece.
-        </p>
-        <a href="https://linkfl.com.br" class="btn" style="padding: 15px 30px; font-size: 1.1rem;">Comece de graça no Linkfl</a>
+
+<!-- HERO -->
+<section class="relative overflow-hidden bg-slate-50/30 border-b border-blue-50/50 pt-24 pb-20">
+    <!-- Background subtle glow elements -->
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none overflow-hidden">
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-100/40 rounded-full blur-[100px]"></div>
+        <div class="absolute -bottom-24 -left-24 w-80 h-80 bg-indigo-100/30 rounded-full blur-[80px]"></div>
     </div>
 
-    <h2>Últimos Artigos</h2>
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <li class="post-item">
-            <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span>
-            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-        </li>
-        {% endfor %}
-    </ul>
-    
-    <!-- Programmatic Pages Link -->
-    <div style="margin-top: 50px; padding-top: 30px; border-top: 1px solid var(--border-color);">
-        <h2>Encontre guias para a sua profissão</h2>
-        <p>Aprenda a construir o site ideal para a sua área de atuação.</p>
-        <ul>
-            {% for pagina in site.paginas limit:10 %}
-            <li><a href="{{ pagina.url | relative_url }}">{{ pagina.title }}</a></li>
-            {% endfor %}
-            <li><a href="{{ '/profissoes' | relative_url }}">Ver todas as profissões &rarr;</a></li>
-        </ul>
+    <div class="max-w-5xl mx-auto px-6 relative text-center">
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm shadow-sm border border-blue-100/50 text-blue-600 text-[10px] sm:text-xs font-display font-bold px-4 py-1.5 rounded-full mb-8 tracking-wider uppercase">
+            <span class="flex h-2 w-2 relative">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+            </span>
+            Linkfl Blog • Insights
+        </div>
+
+        <h1 class="font-display text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 max-w-4xl mx-auto mb-6 leading-[1.1]">
+            Crie seu site
+            <span class="block sm:inline bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600 bg-clip-text text-transparent"> profissional</span>
+        </h1>
+
+        <p class="text-slate-500 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed font-body">
+            Aprenda a dominar o SEO e o marketing digital para transformar seu site em uma máquina de vendas com o Linkfl.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="https://linkfl.com.br" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-display font-semibold text-base px-8 py-4 rounded-xl shadow-lg shadow-blue-600/20 hover:-translate-y-0.5 transition-all">
+                Comece agora
+                <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#artigos" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white text-slate-600 hover:text-blue-600 border border-slate-200 hover:border-blue-200 px-8 py-4 rounded-xl transition-all">
+                Ver artigos
+            </a>
+        </div>
     </div>
-</div>
+</section>
+
+<!-- POSTS LIST -->
+<section id="artigos" class="max-w-5xl mx-auto px-6 pb-20 pt-10">
+    <div class="flex items-baseline justify-between pb-5 mb-8 border-b-2 border-gray-100">
+        <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight">Últimos Artigos</h2>
+    </div>
+
+    <div class="flex flex-col gap-4">
+        {% for post in site.posts %}
+        <a href="{{ post.url | relative_url }}" class="group relative flex flex-col gap-2 bg-white border border-gray-100 rounded-2xl px-7 py-6 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-600/5 hover:-translate-y-0.5 transition-all">
+            <!-- Arrow icon -->
+            <span class="absolute right-6 top-1/2 -translate-y-1/2 text-blue-600 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 -translate-x-1.5 transition-all text-lg font-light">→</span>
+
+            <div class="flex items-center gap-3">
+                <span class="text-xs text-gray-400 font-medium">{{ post.date | date: "%d/%m/%Y" }}</span>
+                {% if post.category %}
+                <span class="font-display text-[10px] font-bold text-blue-600 bg-blue-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">{{ post.category }}</span>
+                {% endif %}
+            </div>
+
+            <h3 class="font-display text-[1.1rem] font-bold text-gray-900 leading-snug tracking-tight group-hover:text-blue-600 transition-colors pr-8">
+                {{ post.title }}
+            </h3>
+
+            <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">
+                {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </p>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- PROGRAMMATIC SECTION -->
+<section class="max-w-5xl mx-auto px-6 pb-24">
+    <div class="bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 rounded-3xl p-10 relative overflow-hidden border border-white/5">
+        <!-- Glow -->
+        <div class="absolute -top-24 -right-24 w-80 h-80 bg-blue-500/10 rounded-full blur-[100px] pointer-events-none"></div>
+        <div class="absolute -bottom-24 -left-24 w-64 h-64 bg-indigo-500/10 rounded-full blur-[80px] pointer-events-none"></div>
+
+        <div class="relative">
+            <span class="inline-block font-display text-xs font-bold text-blue-300 bg-blue-500/20 border border-blue-500/20 px-3 py-1 rounded-full uppercase tracking-widest mb-4">Guias por Profissão</span>
+            <h2 class="font-display text-2xl md:text-3xl font-bold text-white mb-3 tracking-tight">Encontre guias para a sua profissão</h2>
+            <p class="text-gray-400 text-base mb-8 max-w-lg">Aprenda a construir o site ideal para a sua área de atuação.</p>
+
+            <div class="flex flex-wrap gap-2.5 mb-8">
+                {% for pagina in site.paginas limit:10 %}
+                <a href="{{ pagina.url | relative_url }}" class="font-body text-sm text-gray-300 bg-white/10 border border-white/10 hover:bg-white/20 hover:border-white/20 hover:text-white px-4 py-2 rounded-xl transition-all">
+                    {{ pagina.title }}
+                </a>
+                {% endfor %}
+            </div>
+
+            <a href="{{ '/profissoes' | relative_url }}" class="inline-flex items-center gap-2 bg-white text-gray-900 font-display font-bold text-sm px-6 py-3 rounded-xl hover:-translate-y-0.5 hover:shadow-xl transition-all">
+                Ver todas as profissões
+                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
+</section>

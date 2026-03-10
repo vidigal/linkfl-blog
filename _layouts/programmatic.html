@@ -2,79 +2,145 @@
 layout: default
 ---
 
-<article class="post programmatic-post">
-    <!-- Breadcrumbs -->
-    <nav class="breadcrumbs">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <span class="separator">></span>
-        <a href="{{ '/profissoes' | relative_url }}">Profissões</a>
-        <span class="separator">></span>
-        <a href="{{ '/site-para-' | append: page.profissao_slug | relative_url }}">{{ page.profissao_nome }}</a>
+<div class="max-w-5xl mx-auto px-6">
+  <div class="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-16 py-12 pb-20">
+
+    <!-- ARTICLE -->
+    <article>
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center flex-wrap gap-1.5 text-xs text-gray-400 mb-8">
+        <a href="{{ '/' | relative_url }}" class="hover:text-blue-600 transition-colors">Home</a>
+        <span class="text-gray-300">/</span>
+        <a href="{{ '/profissoes' | relative_url }}" class="hover:text-blue-600 transition-colors">Profissões</a>
+        <span class="text-gray-300">/</span>
+        <a href="{{ '/site-para-' | append: page.profissao_slug | relative_url }}" class="hover:text-blue-600 transition-colors">{{ page.profissao_nome }}</a>
         {% if page.cidade_nome %}
-        <span class="separator">></span>
-        <span>{{ page.cidade_nome }}</span>
+        <span class="text-gray-300">/</span>
+        <span class="text-gray-600 font-medium">{{ page.cidade_nome }}</span>
         {% endif %}
-    </nav>
+      </nav>
 
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-    </header>
+      <!-- Header -->
+      <header class="mb-8">
+        <div class="inline-flex items-center gap-1.5 font-display text-[11px] font-bold text-blue-600 bg-blue-50 border border-blue-100 px-3 py-1 rounded-full uppercase tracking-widest mb-4">
+          <svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          Site para {{ page.profissao_nome }}{% if page.cidade_nome %} · {{ page.cidade_nome }}{% endif %}
+        </div>
+        <h1 class="font-display text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900 leading-tight">{{ page.title }}</h1>
+      </header>
 
-    <div class="post-content">
-        <h2>Por que profissionais de {{ page.profissao_nome }}{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %} precisam de um site?</h2>
-        <p>A presença digital se tornou indispensável. Para um <strong>{{ page.profissao_nome | downcase }}</strong>{% if page.cidade_nome %} atendendo em <strong>{{ page.cidade_nome }}</strong>{% endif %}, ter um site próprio não é mais um luxo, mas uma ferramenta fundamental para atrair novos clientes e transmitir credibilidade.</p>
-        
+      <!-- Divider -->
+      <div class="h-0.5 bg-gradient-to-r from-blue-600 via-indigo-400 to-transparent rounded-full mb-10"></div>
+
+      <!-- Content -->
+      <div class="text-[17px] leading-relaxed text-gray-600 space-y-5">
+
+        <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight mt-10 mb-3">Por que profissionais de {{ page.profissao_nome }}{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %} precisam de um site?</h2>
+
+        <!-- Highlight box -->
+        <div class="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl px-6 py-5 text-gray-700 text-base leading-relaxed">
+          A presença digital se tornou indispensável. Para um <strong class="text-gray-900">{{ page.profissao_nome | downcase }}</strong>{% if page.cidade_nome %} atendendo em <strong class="text-gray-900">{{ page.cidade_nome }}</strong>{% endif %}, ter um site próprio não é mais um luxo — é uma ferramenta fundamental para atrair novos clientes e transmitir credibilidade.
+        </div>
+
         <p>Quando alguém procura por seus serviços no Google, a primeira impressão é o seu site. Um design profissional, rápido e otimizado garante que você se destaque da concorrência{% if page.cidade_nome %} na sua região{% endif %}.</p>
 
-        <h2>Benefícios de ter presença digital</h2>
-        <ul>
-            <li><strong>Visibilidade 24/7:</strong> Seu negócio aberto o tempo todo para clientes em potencial.</li>
-            <li><strong>Autoridade e Confiança:</strong> Um site profissional transmite seriedade e segurança.</li>
-            <li><strong>Captação de Leads:</strong> Ferramentas para as pessoas entrarem em contato com facilidade pelo WhatsApp ou formulários.</li>
-            <li><strong>SEO Local:</strong> Apareça nas buscas do Google{% if page.cidade_nome %} quando alguém de {{ page.cidade_nome }} procurar por {{ page.profissao_nome | downcase }}{% endif %}.</li>
+        <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight mt-10 mb-3">Benefícios de ter presença digital</h2>
+
+        <ul class="flex flex-col gap-3 list-none pl-0">
+          <li class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 text-base text-gray-700">
+            <span class="inline-flex items-center justify-center w-5 h-5 bg-blue-600 text-white text-xs font-bold rounded-full flex-shrink-0 mt-0.5">✓</span>
+            <span><strong class="text-gray-900">Visibilidade 24/7:</strong> Seu negócio aberto o tempo todo para clientes em potencial.</span>
+          </li>
+          <li class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 text-base text-gray-700">
+            <span class="inline-flex items-center justify-center w-5 h-5 bg-blue-600 text-white text-xs font-bold rounded-full flex-shrink-0 mt-0.5">✓</span>
+            <span><strong class="text-gray-900">Autoridade e Confiança:</strong> Um site profissional transmite seriedade e segurança.</span>
+          </li>
+          <li class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 text-base text-gray-700">
+            <span class="inline-flex items-center justify-center w-5 h-5 bg-blue-600 text-white text-xs font-bold rounded-full flex-shrink-0 mt-0.5">✓</span>
+            <span><strong class="text-gray-900">Captação de Leads:</strong> Ferramentas para contato fácil pelo WhatsApp ou formulários.</span>
+          </li>
+          <li class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 text-base text-gray-700">
+            <span class="inline-flex items-center justify-center w-5 h-5 bg-blue-600 text-white text-xs font-bold rounded-full flex-shrink-0 mt-0.5">✓</span>
+            <span><strong class="text-gray-900">SEO Local:</strong> Apareça nas buscas do Google{% if page.cidade_nome %} quando alguém de {{ page.cidade_nome }} procurar por {{ page.profissao_nome | downcase }}{% endif %}.</span>
+          </li>
         </ul>
 
-        <h2>O que um site para {{ page.profissao_nome | downcase }} deve ter?</h2>
-        <p>Para converter visitantes em clientes reais, seu site precisa ser direto e focado em resultados. Ele deve conter:</p>
-        <ol>
-            <li>Uma página inicial (Home) clara dizendo o que você faz e quem você ajuda.</li>
-            <li>Uma seção "Sobre Mim" para gerar conexão.</li>
-            <li>Página detalhada de Serviços ou Especialidades.</li>
-            <li>Depoimentos (Prova Social) de clientes ou pacientes.</li>
-            <li>Botões de CTA (Call to Action) visíveis, como "Agendar Consulta" ou "Falar no WhatsApp".</li>
+        <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight mt-10 mb-3">O que um site para {{ page.profissao_nome | downcase }} deve ter?</h2>
+        <p>Para converter visitantes em clientes reais, seu site precisa ser direto e focado em resultados.</p>
+
+        <ol class="flex flex-col gap-3 list-none pl-0 counter-reset-list">
+          {% assign items = "Uma página inicial (Home) clara dizendo o que você faz e quem você ajuda.|Uma seção 'Sobre Mim' para gerar conexão.|Página detalhada de Serviços ou Especialidades.|Depoimentos (Prova Social) de clientes ou pacientes.|Botões de CTA visíveis como 'Agendar Consulta' ou 'Falar no WhatsApp'." | split: "|" %}
+          {% for item in items %}
+          <li class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 text-base text-gray-700">
+            <span class="inline-flex items-center justify-center w-6 h-6 bg-blue-600 text-white font-display text-xs font-bold rounded-full flex-shrink-0 mt-0.5">{{ forloop.index }}</span>
+            <span>{{ item }}</span>
+          </li>
+          {% endfor %}
         </ol>
 
-        <h2>Como aparecer no Google{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}</h2>
-        <p>A otimização para motores de busca (SEO) é o segredo para ser encontrado de forma orgânica. Trabalhar as palavras-chave certas, como "<em>{{ page.profissao_nome | downcase }}{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}</em>", ter um site rápido (Core Web Vitals) e com um layout responsivo (que funciona perfeitamente no celular) são critérios que o Google usa para ranquear bem o seu negócio.</p>
+        <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight mt-10 mb-3">Como aparecer no Google{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}</h2>
+        <p>A otimização para motores de busca (SEO) é o segredo para ser encontrado de forma orgânica. Trabalhar palavras-chave como <em>"{{ page.profissao_nome | downcase }}{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}"</em>, ter um site rápido (Core Web Vitals) e com layout responsivo são critérios essenciais que o Google usa para rankear seu negócio.</p>
 
         {{ content }}
-    </div>
+      </div>
 
-    <!-- Conversion CTA -->
-    <div class="cta-box">
-        <h3>Pronto para criar sua presença digital?</h3>
-        <p>Crie seu site profissional com inteligência artificial hoje mesmo. O Linkfl ajuda <strong>{{ page.profissao_nome | downcase }}s</strong> a terem sites modernos, rápidos e focados em SEO e conversão.</p>
-        <a href="https://linkfl.com.br" class="btn">Crie seu site profissional no Linkfl</a>
-    </div>
+      <!-- CTA -->
+      <div class="mt-12 rounded-2xl p-10 text-center relative overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 border border-white/5">
+        <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.15),transparent_70%)]"></div>
+        <h3 class="font-display text-xl font-bold text-white mb-2 relative">Pronto para criar sua presença digital?</h3>
+        <p class="text-white/60 text-sm mb-6 relative">O Linkfl ajuda <strong class="text-white/80">{{ page.profissao_nome | downcase }}s</strong> a terem sites modernos, rápidos e focados em SEO e conversão.</p>
+        <a href="https://linkfl.com.br" class="relative inline-flex items-center gap-2 bg-white text-gray-900 font-display font-bold text-sm px-7 py-3.5 rounded-xl shadow-xl hover:-translate-y-0.5 transition-all">
+          Criar site profissional no Linkfl
+          <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
 
-    <!-- Related Links for Interlinking -->
-    <div class="interlinking" style="margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border-color);">
-        <h3>Veja também:</h3>
-        <ul>
-            {% if page.cidade_nome %}
-            <li><a href="{{ '/site-para-' | append: page.profissao_slug | relative_url }}">Como criar um site para {{ page.profissao_nome }} (Geral)</a></li>
-            {% else %}
-            <li><a href="{{ '/site-para-' | append: page.profissao_slug | append: '-em-sao-paulo' | relative_url }}">Site para {{ page.profissao_nome }} em São Paulo</a></li>
-            <li><a href="{{ '/site-para-' | append: page.profissao_slug | append: '-em-rio-de-janeiro' | relative_url }}">Site para {{ page.profissao_nome }} no Rio de Janeiro</a></li>
-            <li><a href="{{ '/site-para-' | append: page.profissao_slug | append: '-em-belo-horizonte' | relative_url }}">Site para {{ page.profissao_nome }} em Belo Horizonte</a></li>
-            {% endif %}
-            <li><a href="{{ '/como-criar-um-site-profissional' | relative_url }}">Como criar um site profissional</a></li>
-            <li><a href="{{ '/quanto-custa-criar-um-site' | relative_url }}">Quanto custa criar um site?</a></li>
+      <!-- Interlinking -->
+      <div class="mt-12 pt-8 border-t border-gray-100">
+        <h3 class="font-display text-sm font-bold text-gray-700 mb-4">Veja também:</h3>
+        <ul class="flex flex-col gap-2">
+          {% if page.cidade_nome %}
+          <li><a href="{{ '/site-para-' | append: page.profissao_slug | relative_url }}" class="flex items-center gap-2 text-blue-600 text-sm px-4 py-3 border border-blue-100 rounded-xl hover:bg-blue-50 hover:border-blue-200 transition-all">→ Como criar um site para {{ page.profissao_nome }} (Geral)</a></li>
+          {% else %}
+          <li><a href="{{ '/site-para-' | append: page.profissao_slug | append: '-em-sao-paulo' | relative_url }}" class="flex items-center gap-2 text-blue-600 text-sm px-4 py-3 border border-blue-100 rounded-xl hover:bg-blue-50 transition-all">→ Site para {{ page.profissao_nome }} em São Paulo</a></li>
+          <li><a href="{{ '/site-para-' | append: page.profissao_slug | append: '-em-rio-de-janeiro' | relative_url }}" class="flex items-center gap-2 text-blue-600 text-sm px-4 py-3 border border-blue-100 rounded-xl hover:bg-blue-50 transition-all">→ Site para {{ page.profissao_nome }} no Rio de Janeiro</a></li>
+          <li><a href="{{ '/site-para-' | append: page.profissao_slug | append: '-em-belo-horizonte' | relative_url }}" class="flex items-center gap-2 text-blue-600 text-sm px-4 py-3 border border-blue-100 rounded-xl hover:bg-blue-50 transition-all">→ Site para {{ page.profissao_nome }} em Belo Horizonte</a></li>
+          {% endif %}
+          <li><a href="{{ '/como-criar-um-site-profissional' | relative_url }}" class="flex items-center gap-2 text-blue-600 text-sm px-4 py-3 border border-blue-100 rounded-xl hover:bg-blue-50 transition-all">→ Como criar um site profissional</a></li>
+          <li><a href="{{ '/quanto-custa-criar-um-site' | relative_url }}" class="flex items-center gap-2 text-blue-600 text-sm px-4 py-3 border border-blue-100 rounded-xl hover:bg-blue-50 transition-all">→ Quanto custa criar um site?</a></li>
         </ul>
-    </div>
-</article>
+      </div>
+    </article>
 
-<!-- JSON-LD FAQ Schema -->
+    <!-- SIDEBAR -->
+    <aside class="hidden lg:flex flex-col gap-5 sticky top-20 self-start">
+      <!-- CTA Card -->
+      <div class="rounded-2xl p-6 text-white bg-gradient-to-br from-blue-600 to-indigo-600 shadow-lg shadow-blue-600/20">
+        <p class="font-display text-xs font-bold text-white/70 uppercase tracking-widest mb-1">✦ Linkfl para {{ page.profissao_nome }}</p>
+        <p class="text-sm text-white/85 leading-relaxed mt-2 mb-5">Crie seu site com IA em minutos. Focado em SEO local e conversão.</p>
+        <a href="https://linkfl.com.br" class="block bg-white text-blue-600 font-display font-bold text-sm py-2.5 px-4 rounded-xl text-center hover:-translate-y-0.5 transition-all shadow-lg">
+          Começar grátis →
+        </a>
+      </div>
+
+      <!-- Features Card -->
+      <div class="bg-gray-50 border border-gray-100 rounded-2xl p-6">
+        <p class="font-display text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">Por que o Linkfl?</p>
+        <ul class="flex flex-col gap-3">
+          {% assign features = "Site pronto em minutos com IA|Otimizado para SEO local|Botão de WhatsApp integrado|Design focado em conversão|Sem precisar de programador" | split: "|" %}
+          {% for feature in features %}
+          <li class="flex items-start gap-2.5 text-sm text-gray-600 leading-snug">
+            <span class="inline-flex items-center justify-center w-4 h-4 bg-blue-100 text-blue-600 text-[10px] font-bold rounded-full flex-shrink-0 mt-0.5">✓</span>
+            {{ feature }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+</div>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
