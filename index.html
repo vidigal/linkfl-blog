@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="home">
+    <div style="text-align: center; margin-bottom: 60px;">
+        <h1 style="font-size: 3rem; margin-bottom: 20px;">Crie seu site profissional</h1>
+        <p style="font-size: 1.2rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 30px;">
+            Dicas de SEO, marketing digital e guias completos para construir a presença online que o seu negócio merece.
+        </p>
+        <a href="https://linkfl.com.br" class="btn" style="padding: 15px 30px; font-size: 1.1rem;">Comece de graça no Linkfl</a>
+    </div>
+
+    <h2>Últimos Artigos</h2>
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li class="post-item">
+            <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span>
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+    
+    <!-- Programmatic Pages Link -->
+    <div style="margin-top: 50px; padding-top: 30px; border-top: 1px solid var(--border-color);">
+        <h2>Encontre guias para a sua profissão</h2>
+        <p>Aprenda a construir o site ideal para a sua área de atuação.</p>
+        <ul>
+            {% for pagina in site.paginas limit:10 %}
+            <li><a href="{{ pagina.url | relative_url }}">{{ pagina.title }}</a></li>
+            {% endfor %}
+            <li><a href="{{ '/profissoes' | relative_url }}">Ver todas as profissões &rarr;</a></li>
+        </ul>
+    </div>
+</div>

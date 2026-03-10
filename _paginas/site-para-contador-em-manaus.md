@@ -1,0 +1,9 @@
+---
+layout: "programmatic"
+title: "Como criar um site para Contador em Manaus"
+description: "Guia completo: como criar um site profissional para contador em Manaus. Apareça no Google e atraia clientes da sua região."
+profissao_nome: "Contador"
+profissao_slug: "contador"
+cidade_nome: "Manaus"
+cidade_slug: "manaus"
+---

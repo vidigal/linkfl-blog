@@ -1,0 +1,9 @@
+---
+layout: "programmatic"
+title: "Como criar um site para Infectologista em Salvador"
+description: "Guia completo: como criar um site profissional para infectologista em Salvador. Apareça no Google e atraia clientes da sua região."
+profissao_nome: "Infectologista"
+profissao_slug: "infectologista"
+cidade_nome: "Salvador"
+cidade_slug: "salvador"
+---

@@ -1,0 +1,12 @@
+{
+  "name": "linkfl-blog-generator",
+  "version": "1.0.0",
+  "description": "Programmatic SEO page generator for Linkfl",
+  "scripts": {
+    "generate": "node scripts/generate_pages.js",
+    "build": "npm run generate && bundle exec jekyll build"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

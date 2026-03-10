@@ -1,0 +1,175 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111827;
+  --text-muted: #6b7280;
+  --brand-color: #2563eb;
+  --brand-hover: #1d4ed8;
+  --border-color: #e5e7eb;
+  --radius: 8px;
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--brand-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  letter-spacing: -0.5px;
+}
+.logo:hover {
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 80px;
+  padding: 40px 0;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Base Typo */
+h1, h2, h3, h4 {
+  color: var(--text-color);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.025em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+ul, ol {
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Post Metadata & Breadcrumbs */
+.breadcrumbs {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+.breadcrumbs a {
+  color: var(--text-muted);
+}
+.breadcrumbs a:hover {
+  color: var(--brand-color);
+}
+.breadcrumbs .separator {
+  margin: 0 8px;
+}
+
+/* Call to Action */
+.cta-box {
+  background: #f8fafc;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 30px;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.cta-box h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--brand-color);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--brand-hover);
+  color: #fff;
+  text-decoration: none;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  margin-bottom: 30px;
+}
+
+.post-item h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

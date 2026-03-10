@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article class="post">
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <span class="separator">></span>
+        <a href="{{ '/' | relative_url }}">Blog</a>
+        <span class="separator">></span>
+        <span>{{ page.title }}</span>
+    </nav>
+
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                Publicado em {{ page.date | date: "%d/%m/%Y" }}
+            </time>
+        </div>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <!-- CTA at the end of post -->
+    <div class="cta-box">
+        <h3>Gostou deste artigo?</h3>
+        <p>Acelere agora mesmo o seu negócio criando um site profissional otimizado para vendas com a nossa plataforma.</p>
+        <a href="https://linkfl.com.br" class="btn">Crie seu site no Linkfl</a>
+    </div>
+</article>

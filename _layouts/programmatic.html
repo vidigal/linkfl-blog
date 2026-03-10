@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+<article class="post programmatic-post">
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <span class="separator">></span>
+        <a href="{{ '/profissoes' | relative_url }}">Profissões</a>
+        <span class="separator">></span>
+        <a href="{{ '/site-para-' | append: page.profissao_slug | relative_url }}">{{ page.profissao_nome }}</a>
+        {% if page.cidade_nome %}
+        <span class="separator">></span>
+        <span>{{ page.cidade_nome }}</span>
+        {% endif %}
+    </nav>
+
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+    <div class="post-content">
+        <h2>Por que profissionais de {{ page.profissao_nome }}{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %} precisam de um site?</h2>
+        <p>A presença digital se tornou indispensável. Para um <strong>{{ page.profissao_nome | downcase }}</strong>{% if page.cidade_nome %} atendendo em <strong>{{ page.cidade_nome }}</strong>{% endif %}, ter um site próprio não é mais um luxo, mas uma ferramenta fundamental para atrair novos clientes e transmitir credibilidade.</p>
+        
+        <p>Quando alguém procura por seus serviços no Google, a primeira impressão é o seu site. Um design profissional, rápido e otimizado garante que você se destaque da concorrência{% if page.cidade_nome %} na sua região{% endif %}.</p>
+
+        <h2>Benefícios de ter presença digital</h2>
+        <ul>
+            <li><strong>Visibilidade 24/7:</strong> Seu negócio aberto o tempo todo para clientes em potencial.</li>
+            <li><strong>Autoridade e Confiança:</strong> Um site profissional transmite seriedade e segurança.</li>
+            <li><strong>Captação de Leads:</strong> Ferramentas para as pessoas entrarem em contato com facilidade pelo WhatsApp ou formulários.</li>
+            <li><strong>SEO Local:</strong> Apareça nas buscas do Google{% if page.cidade_nome %} quando alguém de {{ page.cidade_nome }} procurar por {{ page.profissao_nome | downcase }}{% endif %}.</li>
+        </ul>
+
+        <h2>O que um site para {{ page.profissao_nome | downcase }} deve ter?</h2>
+        <p>Para converter visitantes em clientes reais, seu site precisa ser direto e focado em resultados. Ele deve conter:</p>
+        <ol>
+            <li>Uma página inicial (Home) clara dizendo o que você faz e quem você ajuda.</li>
+            <li>Uma seção "Sobre Mim" para gerar conexão.</li>
+            <li>Página detalhada de Serviços ou Especialidades.</li>
+            <li>Depoimentos (Prova Social) de clientes ou pacientes.</li>
+            <li>Botões de CTA (Call to Action) visíveis, como "Agendar Consulta" ou "Falar no WhatsApp".</li>
+        </ol>
+
+        <h2>Como aparecer no Google{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}</h2>
+        <p>A otimização para motores de busca (SEO) é o segredo para ser encontrado de forma orgânica. Trabalhar as palavras-chave certas, como "<em>{{ page.profissao_nome | downcase }}{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}</em>", ter um site rápido (Core Web Vitals) e com um layout responsivo (que funciona perfeitamente no celular) são critérios que o Google usa para ranquear bem o seu negócio.</p>
+
+        {{ content }}
+    </div>
+
+    <!-- Conversion CTA -->
+    <div class="cta-box">
+        <h3>Pronto para criar sua presença digital?</h3>
+        <p>Crie seu site profissional com inteligência artificial hoje mesmo. O Linkfl ajuda <strong>{{ page.profissao_nome | downcase }}s</strong> a terem sites modernos, rápidos e focados em SEO e conversão.</p>
+        <a href="https://linkfl.com.br" class="btn">Crie seu site profissional no Linkfl</a>
+    </div>
+
+    <!-- Related Links for Interlinking -->
+    <div class="interlinking" style="margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border-color);">
+        <h3>Veja também:</h3>
+        <ul>
+            {% if page.cidade_nome %}
+            <li><a href="{{ '/site-para-' | append: page.profissao_slug | relative_url }}">Como criar um site para {{ page.profissao_nome }} (Geral)</a></li>
+            {% else %}
+            <li><a href="{{ '/site-para-' | append: page.profissao_slug | append: '-em-sao-paulo' | relative_url }}">Site para {{ page.profissao_nome }} em São Paulo</a></li>
+            <li><a href="{{ '/site-para-' | append: page.profissao_slug | append: '-em-rio-de-janeiro' | relative_url }}">Site para {{ page.profissao_nome }} no Rio de Janeiro</a></li>
+            <li><a href="{{ '/site-para-' | append: page.profissao_slug | append: '-em-belo-horizonte' | relative_url }}">Site para {{ page.profissao_nome }} em Belo Horizonte</a></li>
+            {% endif %}
+            <li><a href="{{ '/como-criar-um-site-profissional' | relative_url }}">Como criar um site profissional</a></li>
+            <li><a href="{{ '/quanto-custa-criar-um-site' | relative_url }}">Quanto custa criar um site?</a></li>
+        </ul>
+    </div>
+</article>
+
+<!-- JSON-LD FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Por que um {{ page.profissao_nome | downcase }} precisa de um site?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Um site é essencial para transmitir profissionalismo, ser encontrado no Google e captar clientes organicamente na internet."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Como criar um site para {{ page.profissao_nome | downcase }}{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Você pode criar um site otimizado e profissional usando a inteligência artificial do Linkfl, focado em alta conversão e SEO local."
+    }
+  }]
+}
+</script>

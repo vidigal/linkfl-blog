@@ -1,0 +1,28 @@
+title: "Linkfl Blog - Crie seu Site Profissional"
+email: contato@linkfl.com.br
+description: "Aprenda como criar um site profissional, atrair clientes pelo Google e aumentar suas vendas com o Linkfl."
+baseurl: ""
+url: "https://blog.linkfl.com.br"
+twitter_username: linkfl
+github_username: linkfl
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - scripts/
+
+# Collections
+collections:
+  paginas:
+    output: true
+    permalink: /:path/

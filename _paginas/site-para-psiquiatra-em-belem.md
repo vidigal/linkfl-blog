@@ -1,0 +1,9 @@
+---
+layout: "programmatic"
+title: "Como criar um site para Psiquiatra em Belém"
+description: "Guia completo: como criar um site profissional para psiquiatra em Belém. Apareça no Google e atraia clientes da sua região."
+profissao_nome: "Psiquiatra"
+profissao_slug: "psiquiatra"
+cidade_nome: "Belém"
+cidade_slug: "belem"
+---
