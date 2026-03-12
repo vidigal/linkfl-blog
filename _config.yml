@@ -6,6 +6,8 @@ url: "https://blog.linkfl.com.br"
 twitter_username: linkfl
 github_username: linkfl
 
+permalink: /:title/
+
 theme: minima
 plugins:
   - jekyll-feed
@@ -23,6 +25,16 @@ exclude:
   - package.json
   - package-lock.json
   - scripts/
+  - favicon.ico
+
+# Permalinks
+permalink: /:title/
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: "/:title/"
 
 # Collections
 collections:
