@@ -20,7 +20,7 @@ Abaixo estão todos os nossos artigos educacionais publicados. Cada link contém
 A LinkFL cria sites otimizados para diversas profissões, cidades e estados. Abaixo estão algumas das principais categorias para as quais oferecemos soluções prontas:
 
 {% for profissao in site.data.profissoes %}
-- [Site para {{ profissao.nome_plural | capitalize }}]({{ site.url }}/site-para-{{ profissao.slug }}/): Como criar um site profissional focado em SEO e conversão para {{ profissao.nome_plural }}.
+- [Site para {{ profissao.nome }}]({{ site.url }}/site-para-{{ profissao.slug }}/): Como criar um site profissional focado em SEO e conversão para {{ profissao.nome }}.
 {% endfor %}
 
 ## Sobre a LinkFL

@@ -1,0 +1,56 @@
+---
+layout: default
+title: "Índice Geral do Blog"
+description: "Veja todos os artigos, guias e páginas de profissões disponíveis no blog da LinkFL."
+permalink: /indice/
+---
+
+<div class="max-w-4xl mx-auto px-6 py-12">
+  <h1 class="font-display text-4xl font-extrabold text-gray-900 mb-4">Índice Geral do Blog</h1>
+  <p class="text-gray-600 mb-10 text-lg">Aqui você encontra a lista completa de todo o nosso conteúdo educacional e páginas focadas para cada profissão e cidade.</p>
+
+  <h2 class="font-display text-2xl font-bold text-gray-900 border-b pb-2 mb-6 text-blue-600">Artigos Educativos</h2>
+  <ul class="list-disc pl-5 mb-14 space-y-3">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}" class="text-blue-600 font-medium hover:underline text-lg">{{ post.title }}</a>
+      <p class="text-sm text-gray-500 mt-1">{{ post.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="font-display text-2xl font-bold text-gray-900 border-b pb-2 mb-6 text-blue-600">Páginas por Profissão e Cidade</h2>
+  
+  <p class="text-gray-600 mb-6">Explore nossas soluções focadas em profissões específicas. Clique em uma profissão para expandir e ver as páginas focadas em SEO local para diversas cidades.</p>
+
+  <div class="space-y-4">
+    {% for profissao in site.data.profissoes %}
+    <details class="group bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
+      <summary class="cursor-pointer font-medium p-5 text-gray-900 hover:bg-gray-100 transition-colors flex justify-between items-center select-none">
+        <span class="text-lg">Site para {{ profissao.nome }}</span>
+        <span class="text-gray-400 group-open:rotate-180 transition-transform">▼</span>
+      </summary>
+      
+      <div class="p-5 bg-white border-t border-gray-100">
+        <div class="mb-5 pb-5 border-b border-gray-100">
+          <a href="{{ '/site-para-' | append: profissao.slug | relative_url }}" class="inline-flex items-center gap-2 text-blue-600 font-bold hover:underline bg-blue-50 px-4 py-2 rounded-lg">
+            Ver Guia Geral: Como criar um site para {{ profissao.nome }}
+          </a>
+        </div>
+        
+        <h4 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-4">Navegar por Cidade:</h4>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+          {% for cidade in site.data.cidades %}
+          <li>
+            <a href="{{ '/site-para-' | append: profissao.slug | append: '-em-' | append: cidade.slug | relative_url }}" class="text-gray-600 hover:text-blue-600 hover:underline">
+              {{ cidade.nome }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </details>
+    {% endfor %}
+  </div>
+
+</div>
