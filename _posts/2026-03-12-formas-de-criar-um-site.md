@@ -188,4 +188,4 @@ Para a maioria dos negócios pequenos, sim. Sites criados com IA são profission
 
 ---
 
-Entenda os custos envolvidos: [Quanto custa criar um site em 2026?](/quanto-custa-criar-um-site-em-2026)
+Entenda os custos envolvidos: [Quanto custa criar um site em 2026?](/quanto-custa-criar-um-site-em-2026/)
