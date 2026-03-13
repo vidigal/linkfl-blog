@@ -1,0 +1,27 @@
+---
+layout: null
+---
+# Blog da LinkFL
+
+Bem-vindo ao Blog da LinkFL. A LinkFL é uma plataforma brasileira que utiliza Inteligência Artificial para criar sites profissionais, otimizados para SEO local e com foco em alta conversão para prestadores de serviços, profissionais liberais e pequenas empresas.
+
+Nosso blog contém dezenas de artigos educativos sobre criação de sites, marketing digital, SEO, hospedagem de sites e estratégias para profissionais liberais.
+
+## Artigos Completos
+
+Abaixo estão todos os nossos artigos educacionais publicados. Cada link contém guias completos sobre como estabelecer uma excelente presença digital.
+
+{% for post in site.posts %}
+- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.description | default: "Leia este artigo sobre " | append: post.title }}
+{% endfor %}
+
+## Sites por Profissão
+
+A LinkFL cria sites otimizados para diversas profissões, cidades e estados. Abaixo estão algumas das principais categorias para as quais oferecemos soluções prontas:
+
+{% for profissao in site.data.profissoes %}
+- [Site para {{ profissao.nome_plural | capitalize }}]({{ site.url }}/site-para-{{ profissao.slug }}/): Como criar um site profissional focado em SEO e conversão para {{ profissao.nome_plural }}.
+{% endfor %}
+
+## Sobre a LinkFL
+- [Página Inicial do LinkFL](https://linkfl.com.br): Crie seu site com IA em minutos.
