@@ -6,7 +6,7 @@ layout: default
   <div class="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-16 py-12 pb-20">
 
     <!-- ARTICLE -->
-    <article>
+    <article class="min-w-0">
       <!-- Breadcrumbs -->
       <nav class="flex items-center flex-wrap gap-1.5 text-xs text-gray-400 mb-8">
         <a href="{{ '/' | relative_url }}" class="hover:text-blue-600 transition-colors">Home</a>
@@ -47,6 +47,36 @@ layout: default
         {{ content }}
       </div>
 
+      <!-- Footer Share Buttons (Shown on all devices) -->
+      <div class="mt-12 pt-8 border-t border-gray-100 text-center sm:text-left">
+        <h3 class="font-display text-base font-bold text-slate-900 mb-5">Gostou? Compartilhe este artigo:</h3>
+        <div class="flex flex-wrap justify-center sm:justify-start gap-3">
+          <!-- Instagram (Profile) -->
+          <a href="https://www.instagram.com/linkfl.com.br/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full bg-slate-50 text-slate-400 hover:bg-[#E1306C] hover:text-white transition-all border border-slate-100 shadow-sm" title="Siga no Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://api.whatsapp.com/send?text={{ page.title | cgi_escape }}%20-%20{{ site.url }}{{ page.url }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full bg-slate-50 text-slate-400 hover:bg-[#25D366] hover:text-white transition-all border border-slate-100 shadow-sm" title="Compartilhar no WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 256 256"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23-10.11,15.16a8,8,0,0,0-.44,7.33,56.47,56.47,0,0,0,26.43,26.43,8,8,0,0,0,7.33-.44l15.16-10.11,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"></path></svg>
+          </a>
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full bg-slate-50 text-slate-400 hover:bg-[#1877F2] hover:text-white transition-all border border-slate-100 shadow-sm" title="Compartilhar no Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path></svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title | cgi_escape }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full bg-slate-50 text-slate-400 hover:bg-[#0077B5] hover:text-white transition-all border border-slate-100 shadow-sm" title="Compartilhar no LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm-4,192H44V40H212V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,76a12,12,0,1,1-12-12A12,12,0,0,1,100,76Z"></path></svg>
+          </a>
+          <!-- Copy Link -->
+          <div class="relative">
+            <button onclick="navigator.clipboard.writeText('{{ site.url }}{{ page.url }}').then(() => { const el = document.getElementById('copy-toast-footer'); el.classList.remove('opacity-0', 'translate-y-2'); setTimeout(() => el.classList.add('opacity-0', 'translate-y-2'), 2500); })" class="flex items-center justify-center w-11 h-11 rounded-full bg-slate-50 text-slate-400 hover:bg-slate-200 hover:text-slate-900 transition-all border border-slate-100 shadow-sm" title="Copiar Link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 256 256"><path d="M160,200H120a8,8,0,0,1,0-16h40a40,40,0,0,0,0-80H120a8,8,0,0,1,0-16h40a56,56,0,0,1,0,112ZM96,184H80a56,56,0,0,1,0-112h16a8,8,0,0,1,0,16H80a40,40,0,0,0,0,80H96a8,8,0,0,1,0,16Zm64-64H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Z"></path></svg>
+            </button>
+            <div id="copy-toast-footer" class="absolute left-1/2 -translate-x-1/2 mt-2 bg-slate-900 text-white text-[10px] px-2 py-1 rounded shadow-lg opacity-0 translate-y-2 transition-all pointer-events-none whitespace-nowrap">Link Copiado!</div>
+          </div>
+        </div>
+      </div>
+
       <!-- CTA -->
       <div class="mt-14 rounded-2xl p-10 text-center relative overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 border border-white/5">
         <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.15),transparent_70%)]"></div>
@@ -60,7 +90,37 @@ layout: default
     </article>
 
     <!-- SIDEBAR -->
-    <aside class="hidden lg:flex flex-col gap-5 sticky top-20 self-start">
+    <aside class="hidden lg:flex flex-col gap-8 sticky top-20 self-start">
+      
+      <!-- Right Sidebar Share Icons -->
+      <div>
+        <div class="flex flex-wrap gap-2">
+          <!-- Instagram (First) -->
+          <a href="https://www.instagram.com/linkfl.com.br/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-50 text-slate-400 hover:bg-[#E1306C] hover:text-white transition-all border border-slate-100 shadow-sm" title="Siga no Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://api.whatsapp.com/send?text={{ page.title | cgi_escape }}%20-%20{{ site.url }}{{ page.url }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-50 text-slate-400 hover:bg-[#25D366] hover:text-white transition-all border border-slate-100 shadow-sm" title="Compartilhar no WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23-10.11,15.16a8,8,0,0,0-.44,7.33,56.47,56.47,0,0,0,26.43,26.43,8,8,0,0,0,7.33-.44l15.16-10.11,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"></path></svg>
+          </a>
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-50 text-slate-400 hover:bg-[#1877F2] hover:text-white transition-all border border-slate-100 shadow-sm" title="Compartilhar no Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path></svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title | cgi_escape }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-50 text-slate-400 hover:bg-[#0077B5] hover:text-white transition-all border border-slate-100 shadow-sm" title="Compartilhar no LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm-4,192H44V40H212V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,76a12,12,0,1,1-12-12A12,12,0,0,1,100,76Z"></path></svg>
+          </a>
+          <!-- Copy Link -->
+          <div class="relative">
+            <button onclick="navigator.clipboard.writeText('{{ site.url }}{{ page.url }}').then(() => { const el = document.getElementById('copy-toast-sidebar'); el.classList.remove('opacity-0', 'translate-y-2'); setTimeout(() => el.classList.add('opacity-0', 'translate-y-2'), 2500); })" class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-50 text-slate-400 hover:bg-slate-200 hover:text-slate-900 transition-all border border-slate-100 shadow-sm" title="Copiar Link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M160,200H120a8,8,0,0,1,0-16h40a40,40,0,0,0,0-80H120a8,8,0,0,1,0-16h40a56,56,0,0,1,0,112ZM96,184H80a56,56,0,0,1,0-112h16a8,8,0,0,1,0,16H80a40,40,0,0,0,0,80H96a8,8,0,0,1,0,16Zm64-64H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Z"></path></svg>
+            </button>
+            <div id="copy-toast-sidebar" class="absolute left-1/2 -translate-x-1/2 mt-2 bg-slate-900 text-white text-[10px] px-2 py-1 rounded shadow-lg opacity-0 translate-y-2 transition-all pointer-events-none whitespace-nowrap">Link Copiado!</div>
+          </div>
+        </div>
+      </div>
+
       <!-- CTA Card -->
       <div class="rounded-2xl p-6 text-white bg-gradient-to-br from-blue-600 to-indigo-600 shadow-lg shadow-blue-600/20">
         <p class="font-display text-xs font-bold text-white/70 uppercase tracking-widest mb-3">✦ Linkfl</p>
