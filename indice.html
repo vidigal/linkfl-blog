@@ -33,7 +33,7 @@ permalink: /indice/
       
       <div class="p-5 bg-white border-t border-gray-100">
         <div class="mb-5 pb-5 border-b border-gray-100">
-          <a href="{{ '/site-para-' | append: profissao.slug | relative_url }}" class="inline-flex items-center gap-2 text-blue-600 font-bold hover:underline bg-blue-50 px-4 py-2 rounded-lg">
+          <a href="{{ '/site-para-' | append: profissao.slug | append: '/' | relative_url }}" class="inline-flex items-center gap-2 text-blue-600 font-bold hover:underline bg-blue-50 px-4 py-2 rounded-lg">
             Ver Guia Geral: Como criar um site para {{ profissao.nome }}
           </a>
         </div>
@@ -42,7 +42,7 @@ permalink: /indice/
         <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
           {% for cidade in site.data.cidades %}
           <li>
-            <a href="{{ '/site-para-' | append: profissao.slug | append: '-em-' | append: cidade.slug | relative_url }}" class="text-gray-600 hover:text-blue-600 hover:underline">
+            <a href="{{ '/site-para-' | append: profissao.slug | append: '-em-' | append: cidade.slug | append: '/' | relative_url }}" class="text-gray-600 hover:text-blue-600 hover:underline">
               {{ cidade.nome }}
             </a>
           </li>
