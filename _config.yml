@@ -3,6 +3,10 @@ email: contato@linkfl.com.br
 description: "Aprenda como criar um site profissional, atrair clientes pelo Google e aumentar suas vendas com o Linkfl."
 baseurl: ""
 url: "https://blog.linkfl.com.br"
+locale: "pt_BR"
+author:
+  name: "Linkfl"
+logo: "/assets/img/Logo-text-2048x512.svg"
 twitter_username: linkfl
 github_username: linkfl
 

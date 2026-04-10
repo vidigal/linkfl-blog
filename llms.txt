@@ -12,7 +12,7 @@ Nosso blog contém dezenas de artigos educativos sobre criação de sites, marke
 Abaixo estão todos os nossos artigos educacionais publicados. Cada link contém guias completos sobre como estabelecer uma excelente presença digital.
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.description | default: "Leia este artigo sobre " | append: post.title }}
+- [{{ post.title }}]({{ site.url }}{{ post.url }}): {% if post.description %}{{ post.description }}{% else %}Leia este artigo sobre {{ post.title }}{% endif %}
 {% endfor %}
 
 ## Sites por Profissão
