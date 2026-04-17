@@ -74,4 +74,4 @@ O site é a base (aparece no Google, é seu, transmite credibilidade). O Instagr
 
 ---
 
-Continue: [Como ter um email profissional para sua empresa](/como-ter-email-profissional)
+Continue: [Como ter um email profissional para sua empresa](/como-ter-email-profissional/)

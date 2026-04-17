@@ -87,4 +87,4 @@ Um ou poucos links ruins não causam problema. Se muitos sites spam linkam para 
 
 ---
 
-Complete sua base de SEO: [Como criar um blog para seu negócio?](/como-criar-blog-para-negocio)
+Complete sua base de SEO: [Como criar um blog para seu negócio?](/como-criar-blog-para-negocio/)

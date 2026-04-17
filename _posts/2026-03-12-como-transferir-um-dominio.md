@@ -145,4 +145,4 @@ Para domínios .com.br no Registro.br, a mudança de titular é quase imediata. 
 
 ---
 
-Descubra o que fazer em uma situação mais urgente: [Meu domínio expirou, e agora?](/dominio-expirou-o-que-fazer)
+Descubra o que fazer em uma situação mais urgente: [Meu domínio expirou, e agora?](/dominio-expirou-o-que-fazer/)

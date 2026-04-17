@@ -55,4 +55,4 @@ Escreva sobre os problemas que seus clientes enfrentam e como resolvê-los. Case
 
 ---
 
-Próxima: [Site para restaurantes e negócios de alimentação](/site-para-restaurantes)
+Próxima: [Site para restaurantes e negócios de alimentação](/site-para-restaurantes/)

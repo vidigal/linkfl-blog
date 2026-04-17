@@ -150,4 +150,4 @@ R$ 40/ano equivale a R$ 3,33/mês — menos que uma passagem de ônibus. É um d
 
 ---
 
-Aprofunde seu conhecimento sobre a infraestrutura do site: [O que é DNS? Explicação simples](/o-que-e-dns)
+Aprofunde seu conhecimento sobre a infraestrutura do site: [O que é DNS? Explicação simples](/o-que-e-dns/)

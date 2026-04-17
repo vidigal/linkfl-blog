@@ -72,4 +72,4 @@ Sim. A IA atual produz textos e designs que competem com trabalho humano de qual
 
 ---
 
-Continue: [Como construir autoridade online para seu negócio](/como-construir-autoridade-online)
+Continue: [Como construir autoridade online para seu negócio](/como-construir-autoridade-online/)

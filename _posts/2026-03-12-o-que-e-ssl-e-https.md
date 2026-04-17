@@ -118,4 +118,4 @@ Sim, sem exceção. Mesmo sites que não coletam dados sensíveis devem ter SSL 
 
 ---
 
-Entenda mais sobre a infraestrutura por trás do seu site: [O que é um servidor de internet?](/o-que-e-servidor)
+Entenda mais sobre a infraestrutura por trás do seu site: [O que é um servidor de internet?](/o-que-e-servidor/)

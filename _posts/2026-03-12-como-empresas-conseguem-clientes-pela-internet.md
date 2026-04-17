@@ -74,4 +74,4 @@ Anúncios pagos: dias. SEO e conteúdo: 3-6 meses. A combinação dos dois ofere
 
 ---
 
-Domine o WhatsApp: [Como usar o WhatsApp Business para vender mais](/como-usar-whatsapp-business)
+Domine o WhatsApp: [Como usar o WhatsApp Business para vender mais](/como-usar-whatsapp-business/)

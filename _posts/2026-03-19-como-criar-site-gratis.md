@@ -168,4 +168,4 @@ Não! Com o Linkfl, você responde algumas perguntas sobre seu negócio e a inte
 
 ---
 
-Se quer entender melhor como montar seu site passo a passo, leia: [Como criar um site profissional gastando pouco](/como-criar-site-profissional-barato)
+Se quer entender melhor como montar seu site passo a passo, leia: [Como criar um site profissional gastando pouco](/como-criar-site-profissional-barato/)

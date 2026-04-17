@@ -97,4 +97,4 @@ Se a internet cair do lado do visitante, ele não pode acessar o site (mas isso 
 
 ---
 
-Aprenda a lidar com problemas: [Meu site está fora do ar, o que fazer?](/site-fora-do-ar-o-que-fazer)
+Aprenda a lidar com problemas: [Meu site está fora do ar, o que fazer?](/site-fora-do-ar-o-que-fazer/)

@@ -170,4 +170,4 @@ O suficiente para transmitir suas informações essenciais sem cansar o visitant
 
 ---
 
-Entenda mais sobre como seu site funciona no celular: [O que é um site responsivo?](/site-responsivo-o-que-e)
+Entenda mais sobre como seu site funciona no celular: [O que é um site responsivo?](/site-responsivo-o-que-e/)

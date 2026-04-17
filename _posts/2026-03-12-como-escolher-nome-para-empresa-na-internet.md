@@ -173,4 +173,4 @@ Para negócios que atendem o público brasileiro, **português é melhor**. O cl
 
 ---
 
-Você completou a seção sobre domínios! Agora vamos entender a outra peça fundamental: [O que é hospedagem de sites?](/o-que-e-hospedagem-de-sites)
+Você completou a seção sobre domínios! Agora vamos entender a outra peça fundamental: [O que é hospedagem de sites?](/o-que-e-hospedagem-de-sites/)

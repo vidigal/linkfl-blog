@@ -105,4 +105,4 @@ Sim, a maioria. Plataformas como o Linkfl já criam sites responsivos, com SEO o
 
 ---
 
-Finalize sua preparação: [Checklist completo para criar seu site](/checklist-para-criar-um-site)
+Finalize sua preparação: [Checklist completo para criar seu site](/checklist-para-criar-um-site/)

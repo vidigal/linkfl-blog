@@ -183,4 +183,4 @@ Sim, posições no Google não são permanentes. Mas se você mantiver o site at
 
 ---
 
-Esse é o último artigo da série! Para um panorama completo, comece pelo primeiro: [Como criar um site grátis em 2026: opções, limitações e a melhor alternativa](/como-criar-site-gratis)
+Esse é o último artigo da série! Para um panorama completo, comece pelo primeiro: [Como criar um site grátis em 2026: opções, limitações e a melhor alternativa](/como-criar-site-gratis/)

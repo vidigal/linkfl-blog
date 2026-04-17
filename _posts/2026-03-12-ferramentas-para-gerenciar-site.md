@@ -109,4 +109,4 @@ Para análise: Google Analytics. Para SEO: Google Search Console. Para vendas: W
 
 ---
 
-Vamos aprofundar: [O que é inteligência artificial e como ela muda a criação de sites](/ia-e-criacao-de-sites)
+Vamos aprofundar: [O que é inteligência artificial e como ela muda a criação de sites](/ia-e-criacao-de-sites/)

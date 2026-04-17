@@ -109,4 +109,4 @@ Se usar WordPress, sim — algum conhecimento será necessário. Se usar Linkfl 
 
 ---
 
-Conheça a plataforma mais usada: [O que é WordPress? Vale a pena?](/o-que-e-wordpress)
+Conheça a plataforma mais usada: [O que é WordPress? Vale a pena?](/o-que-e-wordpress/)

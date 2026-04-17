@@ -72,4 +72,4 @@ Precisa do domínio. O site é recomendado, mas o email profissional depende ape
 
 ---
 
-Aprenda sobre e-commerce: [Diferença entre site e loja virtual: quando vender online](/site-vs-loja-virtual)
+Aprenda sobre e-commerce: [Diferença entre site e loja virtual: quando vender online](/site-vs-loja-virtual/)

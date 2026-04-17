@@ -45,4 +45,4 @@ Sim! Um site profissional com CRECI transmite credibilidade e ajuda a captar cli
 
 ---
 
-Próxima: [Guia completo: da criação à divulgação do seu site](/guia-completo-criacao-divulgacao-site)
+Próxima: [Guia completo: da criação à divulgação do seu site](/guia-completo-criacao-divulgacao-site/)

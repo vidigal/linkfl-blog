@@ -80,4 +80,4 @@ Depende do tipo de site. Para um blog, 70% é normal. Para uma loja virtual, pod
 
 ---
 
-Descubra os bastidores do Google: [O que são backlinks e por que são importantes?](/o-que-sao-backlinks)
+Descubra os bastidores do Google: [O que são backlinks e por que são importantes?](/o-que-sao-backlinks/)

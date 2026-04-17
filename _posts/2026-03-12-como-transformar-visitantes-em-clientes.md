@@ -77,4 +77,4 @@ Se usa Google Analytics, configure "metas" ou "eventos" para rastrear cliques no
 
 ---
 
-Aprofunde-se: [O que é taxa de conversão?](/o-que-e-taxa-de-conversao)
+Aprofunde-se: [O que é taxa de conversão?](/o-que-e-taxa-de-conversao/)

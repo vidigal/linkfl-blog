@@ -32,6 +32,9 @@ jobs:
       - name: Gerar páginas programáticas
         run: npm run generate
 
+      - name: Validar links internos
+        run: npm run check:links
+
       - name: Setup Ruby (Para o Jekyll)
         uses: ruby/setup-ruby@v1
         with:

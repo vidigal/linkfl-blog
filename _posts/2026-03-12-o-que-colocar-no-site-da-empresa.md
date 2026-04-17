@@ -147,4 +147,4 @@ Sempre que houver mudanças nos serviços, preços ou informações de contato. 
 
 ---
 
-Evite erros comuns: [10 erros mais comuns ao criar um site](/erros-ao-criar-um-site)
+Evite erros comuns: [10 erros mais comuns ao criar um site](/erros-ao-criar-um-site/)

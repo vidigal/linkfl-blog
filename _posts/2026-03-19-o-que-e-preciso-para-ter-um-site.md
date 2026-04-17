@@ -165,4 +165,4 @@ Você pode cancelar a plataforma a qualquer momento. O domínio continua seu (ba
 
 ---
 
-Agora que sabe o que precisa, aprenda a ser encontrado: [Como criar um site que aparece no Google: SEO para iniciantes](/site-que-aparece-no-google)
+Agora que sabe o que precisa, aprenda a ser encontrado: [Como criar um site que aparece no Google: SEO para iniciantes](/site-que-aparece-no-google/)

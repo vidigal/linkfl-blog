@@ -98,4 +98,4 @@ Se tiver orçamento, sim. Anúncios no Instagram aceleram o crescimento e permit
 
 ---
 
-Amplie sua presença: [O que é Google Meu Negócio e como cadastrar?](/o-que-e-google-meu-negocio)
+Amplie sua presença: [O que é Google Meu Negócio e como cadastrar?](/o-que-e-google-meu-negocio/)

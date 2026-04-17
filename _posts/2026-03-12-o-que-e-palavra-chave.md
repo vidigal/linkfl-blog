@@ -156,4 +156,4 @@ O Google corrige automaticamente a maioria dos erros. Não vale a pena otimizar 
 
 ---
 
-Aprenda sobre SEO local: [O que é SEO local? Como aparecer na sua cidade](/o-que-e-seo-local)
+Aprenda sobre SEO local: [O que é SEO local? Como aparecer na sua cidade](/o-que-e-seo-local/)

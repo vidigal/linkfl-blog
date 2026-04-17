@@ -167,4 +167,4 @@ Sim! URLs claras e com palavras-chave ajudam o Google a entender o conteúdo da 
 
 ---
 
-Para completar os fundamentos, entenda: [O que é um link na internet?](/o-que-e-um-link)
+Para completar os fundamentos, entenda: [O que é um link na internet?](/o-que-e-um-link/)

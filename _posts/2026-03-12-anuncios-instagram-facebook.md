@@ -106,4 +106,4 @@ Para negócios visuais e de consumo (estética, moda, alimentação, saúde), fu
 
 ---
 
-Aprenda a usar a rede mais importante: [Como usar o Instagram para seu negócio](/como-usar-instagram-para-negocio)
+Aprenda a usar a rede mais importante: [Como usar o Instagram para seu negócio](/como-usar-instagram-para-negocio/)

@@ -141,4 +141,4 @@ Analise o site dele: que conteúdo tem? Quantas páginas? Tem blog? Então, crie
 
 ---
 
-Domine o conceito mais importante: [O que é palavra-chave e como usar no site?](/o-que-e-palavra-chave)
+Domine o conceito mais importante: [O que é palavra-chave e como usar no site?](/o-que-e-palavra-chave/)

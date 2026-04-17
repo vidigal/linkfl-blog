@@ -199,4 +199,4 @@ Sim. A migração entre hospedagens preserva o site. Pode haver um breve períod
 
 ---
 
-Entenda os custos envolvidos: [Quanto custa uma hospedagem de site?](/quanto-custa-hospedagem-de-site)
+Entenda os custos envolvidos: [Quanto custa uma hospedagem de site?](/quanto-custa-hospedagem-de-site/)

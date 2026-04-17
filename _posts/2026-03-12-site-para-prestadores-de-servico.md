@@ -52,4 +52,4 @@ Não! O Linkfl usa IA para criar o site. Basta informar seus serviços e área d
 
 ---
 
-Próxima: [Site para consultores e coaches](/site-para-consultores-coaches)
+Próxima: [Site para consultores e coaches](/site-para-consultores-coaches/)

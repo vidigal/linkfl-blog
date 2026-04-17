@@ -89,4 +89,4 @@ Sim, os dados aparecem com 2-3 dias de atraso. Após configurar, pode levar algu
 
 ---
 
-Aprenda a medir resultados: [O que é Google Analytics? Para que serve?](/o-que-e-google-analytics)
+Aprenda a medir resultados: [O que é Google Analytics? Para que serve?](/o-que-e-google-analytics/)

@@ -60,4 +60,4 @@ Pode ir de R$ 0 (fazendo você mesmo) a R$ 5.000+ (com agência). O importante �
 
 ---
 
-Próximo: [Mitos sobre sites que impedem seu negócio de crescer](/mitos-sobre-sites)
+Próximo: [Mitos sobre sites que impedem seu negócio de crescer](/mitos-sobre-sites/)

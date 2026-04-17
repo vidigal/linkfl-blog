@@ -105,4 +105,4 @@ Comece pelas perguntas que seus clientes mais fazem. Use o Google (autocompletar
 
 ---
 
-Agora vamos expandir para além do SEO: [Como divulgar um site na internet?](/como-divulgar-um-site)
+Agora vamos expandir para além do SEO: [Como divulgar um site na internet?](/como-divulgar-um-site/)

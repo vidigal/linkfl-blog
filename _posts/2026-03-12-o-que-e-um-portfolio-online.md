@@ -168,4 +168,4 @@ Depende da sua área. Se você é fotógrafo, suas próprias fotos são o portf�
 
 ---
 
-Conheça outro formato popular de site: [O que é um site one page?](/o-que-e-um-site-one-page)
+Conheça outro formato popular de site: [O que é um site one page?](/o-que-e-um-site-one-page/)

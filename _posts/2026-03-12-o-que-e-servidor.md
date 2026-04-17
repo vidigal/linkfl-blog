@@ -123,4 +123,4 @@ Depende da necessidade. Para a maioria dos sites pequenos e médios, um servidor
 
 ---
 
-Para completar os conhecimentos de hospedagem: [Hospedagem compartilhada vs VPS: qual a diferença?](/hospedagem-compartilhada-vs-vps)
+Para completar os conhecimentos de hospedagem: [Hospedagem compartilhada vs VPS: qual a diferença?](/hospedagem-compartilhada-vs-vps/)

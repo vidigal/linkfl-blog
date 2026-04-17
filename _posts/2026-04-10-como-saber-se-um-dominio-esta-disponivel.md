@@ -230,5 +230,5 @@ Se você quer sair da etapa das dúvidas e colocar seu projeto no ar com estrutu
 
 Veja também:
 
-- [Como escolher um bom domínio para o seu site](/como-escolher-um-bom-dominio)
-- [Como registrar um domínio .com.br: passo a passo completo](/como-registrar-um-dominio-com-br)
+- [Como escolher um bom domínio para o seu site](/como-escolher-um-bom-dominio/)
+- [Como registrar um domínio .com.br: passo a passo completo](/como-registrar-um-dominio-com-br/)

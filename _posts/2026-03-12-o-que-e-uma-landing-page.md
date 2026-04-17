@@ -163,4 +163,4 @@ A página de vendas é um **tipo** de landing page. Toda página de vendas é um
 
 ---
 
-Continue aprendendo sobre os tipos de presença digital: [O que é um site institucional?](/o-que-e-um-site-institucional)
+Continue aprendendo sobre os tipos de presença digital: [O que é um site institucional?](/o-que-e-um-site-institucional/)

@@ -180,4 +180,4 @@ Sim! Você pode registrar o domínio e conectá-lo a um site depois. É como com
 
 ---
 
-Pronto para dar o próximo passo? Veja: [Como registrar um domínio .com.br passo a passo](/como-registrar-um-dominio-com-br)
+Pronto para dar o próximo passo? Veja: [Como registrar um domínio .com.br passo a passo](/como-registrar-um-dominio-com-br/)

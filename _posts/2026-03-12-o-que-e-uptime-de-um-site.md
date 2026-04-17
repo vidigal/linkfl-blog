@@ -112,4 +112,4 @@ Depende do SLA. Alguns provedores excluem manutenções programadas do cálculo 
 
 ---
 
-Agora que você domina todos os conceitos de hospedagem, vamos para a próxima etapa: [Formas de criar um site hoje em dia](/formas-de-criar-um-site)
+Agora que você domina todos os conceitos de hospedagem, vamos para a próxima etapa: [Formas de criar um site hoje em dia](/formas-de-criar-um-site/)

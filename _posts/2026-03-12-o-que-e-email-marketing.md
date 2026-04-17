@@ -85,4 +85,4 @@ Semanal ou quinzenal é ideal para a maioria dos negócios. Menos que mensal e a
 
 ---
 
-Veja mais ferramentas: [Ferramentas essenciais para gerenciar seu site](/ferramentas-para-gerenciar-site)
+Veja mais ferramentas: [Ferramentas essenciais para gerenciar seu site](/ferramentas-para-gerenciar-site/)

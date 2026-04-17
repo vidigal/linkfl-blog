@@ -74,4 +74,4 @@ Não. O WhatsApp é um canal de comunicação, não uma vitrine. O site fornece 
 
 ---
 
-Entenda o marketing de conteúdo: [O que é marketing de conteúdo?](/o-que-e-marketing-de-conteudo)
+Entenda o marketing de conteúdo: [O que é marketing de conteúdo?](/o-que-e-marketing-de-conteudo/)

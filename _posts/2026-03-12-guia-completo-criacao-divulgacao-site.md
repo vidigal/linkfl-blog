@@ -95,4 +95,4 @@ Não. Você pode delegar partes (design, conteúdo, anúncios). Mas com platafor
 
 ---
 
-Próximo: [Como escolher a melhor plataforma para seu site](/como-escolher-plataforma-para-site)
+Próximo: [Como escolher a melhor plataforma para seu site](/como-escolher-plataforma-para-site/)

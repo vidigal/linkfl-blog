@@ -156,4 +156,4 @@ Acesse seu site pelo celular. Se os textos forem legíveis sem zoom, os botões 
 
 ---
 
-Agora vamos entender outro conceito fundamental: [O que é a URL de um site?](/o-que-e-url-de-um-site)
+Agora vamos entender outro conceito fundamental: [O que é a URL de um site?](/o-que-e-url-de-um-site/)

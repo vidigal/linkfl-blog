@@ -79,4 +79,4 @@ Depende da estratégia, nicho e execução. Mas de forma geral, o marketing digi
 
 ---
 
-Entenda os anúncios: [O que é Google Ads e como funciona?](/o-que-e-google-ads)
+Entenda os anúncios: [O que é Google Ads e como funciona?](/o-que-e-google-ads/)

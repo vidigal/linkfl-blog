@@ -226,5 +226,5 @@ Se você quer criar seu site profissional sem depender de configuração manual 
 
 Veja também:
 
-- [Como registrar um domínio .com.br: passo a passo completo](/como-registrar-um-dominio-com-br)
-- [O que é DNS? Explicação simples para quem não é técnico](/o-que-e-dns)
+- [Como registrar um domínio .com.br: passo a passo completo](/como-registrar-um-dominio-com-br/)
+- [O que é DNS? Explicação simples para quem não é técnico](/o-que-e-dns/)

@@ -159,4 +159,4 @@ Sim! Essa é a estratégia mais recomendada. Comece com um site profissional, de
 
 ---
 
-Agora que você sabe a diferença entre esses três tipos, é hora de entender um conceito que aparece em todos eles: [O que é uma landing page?](/o-que-e-uma-landing-page)
+Agora que você sabe a diferença entre esses três tipos, é hora de entender um conceito que aparece em todos eles: [O que é uma landing page?](/o-que-e-uma-landing-page/)

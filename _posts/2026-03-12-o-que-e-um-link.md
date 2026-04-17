@@ -176,4 +176,4 @@ Não existe um número fixo, mas uma boa prática é ter de 3 a 5 links internos
 
 ---
 
-Parabéns! Você completou os fundamentos sobre sites. Agora vamos entender um conceito essencial: [O que é um domínio de internet?](/o-que-e-um-dominio)
+Parabéns! Você completou os fundamentos sobre sites. Agora vamos entender um conceito essencial: [O que é um domínio de internet?](/o-que-e-um-dominio/)

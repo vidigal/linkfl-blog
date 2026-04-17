@@ -170,4 +170,4 @@ Se o servidor ficar fora do ar, seu site também fica. Boas hospedagens garantem
 
 ---
 
-Aprofunde seus conhecimentos: [Como funciona a hospedagem de sites?](/como-funciona-a-hospedagem-de-sites)
+Aprofunde seus conhecimentos: [Como funciona a hospedagem de sites?](/como-funciona-a-hospedagem-de-sites/)

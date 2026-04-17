@@ -72,4 +72,4 @@ Configure eventos no Google Analytics para rastrear cliques no botão do WhatsAp
 
 ---
 
-Saiba mais: [O que é um CTA e por que é essencial no seu site?](/o-que-e-cta)
+Saiba mais: [O que é um CTA e por que é essencial no seu site?](/o-que-e-cta/)

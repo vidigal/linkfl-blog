@@ -71,4 +71,4 @@ Sim, 100% gratuito. O Google oferece como ferramenta para ajudar negócios a ser
 
 ---
 
-Aprenda sobre conversão: [Como transformar visitantes do site em clientes](/como-transformar-visitantes-em-clientes)
+Aprenda sobre conversão: [Como transformar visitantes do site em clientes](/como-transformar-visitantes-em-clientes/)

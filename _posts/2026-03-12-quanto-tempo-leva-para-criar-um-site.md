@@ -110,4 +110,4 @@ Após a publicação, o Google pode levar de **algumas horas a 4 semanas** para 
 
 ---
 
-Planeje o conteúdo ideal: [O que colocar no site da sua empresa?](/o-que-colocar-no-site-da-empresa)
+Planeje o conteúdo ideal: [O que colocar no site da sua empresa?](/o-que-colocar-no-site-da-empresa/)

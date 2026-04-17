@@ -49,7 +49,7 @@ Com o **Linkfl**, a Inteligência Artificial trabalha ao seu favor. O processo d
 
 1. **Design Profissional Automático:** Chega de tentar combinar cores e fontes sem conhecimento prévio. O resultado é extremamente profissional e já aplica as melhores práticas de design e usabilidade.
 2. **Copywriting de Alta Conversão:** A sua página nasce com textos persuasivos, que são estruturados desde o início para prender a atenção do seu visitante ideal e guiá-lo a entrar em contato com você.
-3. **SEO e Velocidade Otimizados:** O Google ranqueia melhor e dá preferência para as páginas rápidas. Sua landing page será otimizada com [design responsivo](/site-responsivo-o-que-e) perfeito (adaptado para todos os dispositivos e celulares) e receberá as marcações técnicas corretas para que o Google entenda e mostre a sua página como resultado das buscas orgânicas.
+3. **SEO e Velocidade Otimizados:** O Google ranqueia melhor e dá preferência para as páginas rápidas. Sua landing page será otimizada com [design responsivo](/site-responsivo-o-que-e/) perfeito (adaptado para todos os dispositivos e celulares) e receberá as marcações técnicas corretas para que o Google entenda e mostre a sua página como resultado das buscas orgânicas.
 
 ## Coloque sua página no ar ainda hoje
 

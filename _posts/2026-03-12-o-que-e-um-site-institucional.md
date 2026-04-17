@@ -165,4 +165,4 @@ Sim! Mesmo sem ser uma loja virtual, o site institucional gera vendas ao **atrai
 
 ---
 
-Quer conhecer uma forma diferente de se apresentar online? Leia: [O que é um portfólio online?](/o-que-e-um-portfolio-online)
+Quer conhecer uma forma diferente de se apresentar online? Leia: [O que é um portfólio online?](/o-que-e-um-portfolio-online/)

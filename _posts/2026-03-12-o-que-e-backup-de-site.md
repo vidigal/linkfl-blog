@@ -71,4 +71,4 @@ Depende do tamanho do site. Um site institucional típico ocupa 50-500 MB. Servi
 
 ---
 
-Aprenda sobre LGPD: [Seu site precisa se adequar à LGPD?](/site-e-lgpd)
+Aprenda sobre LGPD: [Seu site precisa se adequar à LGPD?](/site-e-lgpd/)

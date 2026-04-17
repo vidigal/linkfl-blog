@@ -164,4 +164,4 @@ Com um domínio novo e SEO bem feito, os primeiros resultados aparecem em 2-4 se
 
 ---
 
-Quer criar seu site sem saber nada de programação? Leia: [Como criar um site sem saber programar: 5 formas fáceis](/criar-site-sem-saber-programar)
+Quer criar seu site sem saber nada de programação? Leia: [Como criar um site sem saber programar: 5 formas fáceis](/criar-site-sem-saber-programar/)

@@ -123,4 +123,4 @@ Sim, mas o processo pode ser trabalhoso. É possível exportar o conteúdo e rec
 
 ---
 
-Conheça outra opção popular: [O que é um construtor de sites?](/o-que-e-construtor-de-sites)
+Conheça outra opção popular: [O que é um construtor de sites?](/o-que-e-construtor-de-sites/)

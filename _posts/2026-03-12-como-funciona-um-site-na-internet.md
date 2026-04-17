@@ -164,4 +164,4 @@ Sim! Se alguém tiver internet e um navegador, pode acessar seu site de qualquer
 
 ---
 
-Agora que você entende como um site funciona, o próximo conceito fundamental é o **domínio** — o endereço do seu site na internet. Confira: [O que é um domínio de internet?](/o-que-e-um-dominio)
+Agora que você entende como um site funciona, o próximo conceito fundamental é o **domínio** — o endereço do seu site na internet. Confira: [O que é um domínio de internet?](/o-que-e-um-dominio/)

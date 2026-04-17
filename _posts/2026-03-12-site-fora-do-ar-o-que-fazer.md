@@ -132,4 +132,4 @@ Não imediatamente. Se o site ficar offline por poucas horas, não há impacto n
 
 ---
 
-Conheça a métrica mais importante da hospedagem: [O que é uptime de um site?](/o-que-e-uptime-de-um-site)
+Conheça a métrica mais importante da hospedagem: [O que é uptime de um site?](/o-que-e-uptime-de-um-site/)

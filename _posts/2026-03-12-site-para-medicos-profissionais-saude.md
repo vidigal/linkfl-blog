@@ -84,4 +84,4 @@ Mantenha informações de contato e horários atualizados. Se tiver blog, publiq
 
 ---
 
-Próxima profissão: [Site para advogados: como atrair clientes](/site-para-advogados)
+Próxima profissão: [Site para advogados: como atrair clientes](/site-para-advogados/)

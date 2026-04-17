@@ -165,4 +165,4 @@ Você pode incluir no site as informações sobre atendimento online, com botão
 
 ---
 
-Se você é de outra área, veja: [Site para personal trainer: como montar e conquistar alunos online](/como-criar-site-para-personal-trainer)
+Se você é de outra área, veja: [Site para personal trainer: como montar e conquistar alunos online](/como-criar-site-para-personal-trainer/)

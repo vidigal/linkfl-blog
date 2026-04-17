@@ -82,4 +82,4 @@ Menos, pois essas plataformas gerenciam a segurança. Mas você deve manter senh
 
 ---
 
-Melhore a velocidade: [Como melhorar a velocidade do seu site](/como-melhorar-velocidade-do-site)
+Melhore a velocidade: [Como melhorar a velocidade do seu site](/como-melhorar-velocidade-do-site/)

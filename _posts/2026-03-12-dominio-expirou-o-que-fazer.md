@@ -151,4 +151,4 @@ Para domínios que você pretende manter, renovar por períodos maiores é mais 
 
 ---
 
-Aprofunde seus conhecimentos sobre domínios: [O que é um subdomínio?](/o-que-e-subdominio)
+Aprofunde seus conhecimentos sobre domínios: [O que é um subdomínio?](/o-que-e-subdominio/)

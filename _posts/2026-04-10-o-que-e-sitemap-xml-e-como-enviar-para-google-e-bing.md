@@ -221,5 +221,5 @@ Se você quer publicar seu site com sitemap técnico já pronto, páginas organi
 
 Veja também:
 
-- [O que é Google Search Console e como usar?](/o-que-e-google-search-console)
-- [Como criar um site que aparece no Google: SEO para iniciantes](/site-que-aparece-no-google)
+- [O que é Google Search Console e como usar?](/o-que-e-google-search-console/)
+- [Como criar um site que aparece no Google: SEO para iniciantes](/site-que-aparece-no-google/)

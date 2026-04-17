@@ -121,4 +121,4 @@ Sim! Na verdade, sites criados com IA no Linkfl são **melhor otimizados** para 
 
 ---
 
-Saiba mais sobre o processo: [Quanto tempo leva para criar um site?](/quanto-tempo-leva-para-criar-um-site)
+Saiba mais sobre o processo: [Quanto tempo leva para criar um site?](/quanto-tempo-leva-para-criar-um-site/)

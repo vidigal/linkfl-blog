@@ -191,4 +191,4 @@ WHOIS é um banco de dados público que mostra informações sobre quem registro
 
 ---
 
-Entenda agora o outro componente essencial do seu site: [O que é hospedagem de sites?](/o-que-e-hospedagem-de-sites)
+Entenda agora o outro componente essencial do seu site: [O que é hospedagem de sites?](/o-que-e-hospedagem-de-sites/)

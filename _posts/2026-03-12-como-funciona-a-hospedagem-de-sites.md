@@ -172,4 +172,4 @@ FTP (File Transfer Protocol) é uma forma de enviar arquivos para o servidor de 
 
 ---
 
-Compare as opções disponíveis: [Tipos de hospedagem de sites: qual escolher?](/tipos-de-hospedagem-de-sites)
+Compare as opções disponíveis: [Tipos de hospedagem de sites: qual escolher?](/tipos-de-hospedagem-de-sites/)

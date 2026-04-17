@@ -90,4 +90,4 @@ Sim, é excelente! Você pode configurar os anúncios para aparecer apenas para 
 
 ---
 
-Descubra outra forma de anunciar: [O que são anúncios no Instagram e Facebook?](/anuncios-instagram-facebook)
+Descubra outra forma de anunciar: [O que são anúncios no Instagram e Facebook?](/anuncios-instagram-facebook/)

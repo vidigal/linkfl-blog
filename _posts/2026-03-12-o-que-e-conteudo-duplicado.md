@@ -76,4 +76,4 @@ Citar pequenos trechos com referência não é problema. O problema é copiar gr
 
 ---
 
-Entenda uma métrica vital: [O que é taxa de rejeição e como melhorar?](/o-que-e-taxa-de-rejeicao)
+Entenda uma métrica vital: [O que é taxa de rejeição e como melhorar?](/o-que-e-taxa-de-rejeicao/)

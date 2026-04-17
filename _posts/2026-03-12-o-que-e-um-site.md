@@ -144,4 +144,4 @@ Sim, mais do que nunca. Com o crescimento das buscas no Google e a instabilidade
 
 ---
 
-Agora que você já sabe o que é um site e por que ele é essencial, o próximo passo é entender **como um site funciona por dentro**. Confira o próximo artigo da série: [Como funciona um site na internet](/como-funciona-um-site-na-internet).
+Agora que você já sabe o que é um site e por que ele é essencial, o próximo passo é entender **como um site funciona por dentro**. Confira o próximo artigo da série: [Como funciona um site na internet](/como-funciona-um-site-na-internet/).

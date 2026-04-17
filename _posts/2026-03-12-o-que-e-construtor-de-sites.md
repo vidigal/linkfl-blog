@@ -101,4 +101,4 @@ Depende da sua necessidade. Para design sofisticado, Squarespace. Para flexibili
 
 ---
 
-Descubra a evolução mais recente: [Como criar um site com inteligência artificial](/criar-site-com-inteligencia-artificial)
+Descubra a evolução mais recente: [Como criar um site com inteligência artificial](/criar-site-com-inteligencia-artificial/)

@@ -71,4 +71,4 @@ Uma revisão mensal rápida (30 minutos) é suficiente. Ajustes maiores a cada t
 
 ---
 
-Próximo: [O que é funil de vendas digital?](/o-que-e-funil-de-vendas-digital)
+Próximo: [O que é funil de vendas digital?](/o-que-e-funil-de-vendas-digital/)

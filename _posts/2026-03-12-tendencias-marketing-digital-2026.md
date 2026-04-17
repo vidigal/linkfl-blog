@@ -72,4 +72,4 @@ Acompanhe blogs de marketing digital, siga profissionais da área nas redes soci
 
 ---
 
-Vamos finalizar: [Por que todo profissional precisa de um site em 2026](/por-que-todo-profissional-precisa-de-site)
+Vamos finalizar: [Por que todo profissional precisa de um site em 2026](/por-que-todo-profissional-precisa-de-site/)

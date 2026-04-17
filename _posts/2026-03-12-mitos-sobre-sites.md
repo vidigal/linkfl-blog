@@ -69,4 +69,4 @@ Comece simples. Com o Linkfl, o investimento é baixo e o processo é rápido. V
 
 ---
 
-Último artigo: [Conclusão: como começar sua jornada digital hoje](/como-comecar-jornada-digital)
+Último artigo: [Conclusão: como começar sua jornada digital hoje](/como-comecar-jornada-digital/)

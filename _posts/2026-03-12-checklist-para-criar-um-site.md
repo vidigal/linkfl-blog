@@ -139,4 +139,4 @@ A maioria sim. Design responsivo, SEO, SSL, hospedagem e velocidade são resolvi
 
 ---
 
-Você completou a seção sobre criação de sites! Agora, vamos aprender como ser encontrado: [O que é SEO? Guia completo para iniciantes](/o-que-e-seo-guia-completo)
+Você completou a seção sobre criação de sites! Agora, vamos aprender como ser encontrado: [O que é SEO? Guia completo para iniciantes](/o-que-e-seo-guia-completo/)

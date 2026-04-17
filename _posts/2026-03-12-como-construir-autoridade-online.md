@@ -61,4 +61,4 @@ Sim! O Google usa sinais de autoridade (backlinks, menções, conteúdo de quali
 
 ---
 
-Continue: [Como usar o LinkedIn para seu negócio](/como-usar-linkedin-para-negocio)
+Continue: [Como usar o LinkedIn para seu negócio](/como-usar-linkedin-para-negocio/)

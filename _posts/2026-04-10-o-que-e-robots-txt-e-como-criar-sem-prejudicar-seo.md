@@ -210,5 +210,5 @@ Se você quer um site com estrutura técnica bem resolvida, sitemap pronto e con
 
 Veja também:
 
-- [O que é sitemap.xml e como enviar seu site para Google e Bing](/o-que-e-sitemap-xml-e-como-enviar-para-google-e-bing)
-- [Como criar um site que aparece no Google: SEO para iniciantes](/site-que-aparece-no-google)
+- [O que é sitemap.xml e como enviar seu site para Google e Bing](/o-que-e-sitemap-xml-e-como-enviar-para-google-e-bing/)
+- [Como criar um site que aparece no Google: SEO para iniciantes](/site-que-aparece-no-google/)

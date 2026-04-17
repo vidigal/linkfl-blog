@@ -80,4 +80,4 @@ Sim. O Linkfl gera sites com SSL ativo e pode incluir política de privacidade. 
 
 ---
 
-Aprenda sobre email: [O que é email marketing e como usar?](/o-que-e-email-marketing)
+Aprenda sobre email: [O que é email marketing e como usar?](/o-que-e-email-marketing/)

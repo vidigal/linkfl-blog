@@ -63,4 +63,4 @@ Extremamente bem! É uma das profissões com maior volume de busca local no Goog
 
 ---
 
-Próxima: [Site para nutricionistas e personal trainers](/site-para-nutricionistas-personal-trainers)
+Próxima: [Site para nutricionistas e personal trainers](/site-para-nutricionistas-personal-trainers/)

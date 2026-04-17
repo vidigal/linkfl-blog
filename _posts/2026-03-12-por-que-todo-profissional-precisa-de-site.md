@@ -86,4 +86,4 @@ Sim, quando bem feito e com SEO otimizado. Profissionais relatam aumento de 50-2
 
 ---
 
-Veja exemplos práticos: [Site para médicos e profissionais de saúde](/site-para-medicos-profissionais-saude)
+Veja exemplos práticos: [Site para médicos e profissionais de saúde](/site-para-medicos-profissionais-saude/)

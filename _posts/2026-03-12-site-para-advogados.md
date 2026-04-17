@@ -59,4 +59,4 @@ Sim! Artigos que respondem dúvidas como "Quando posso pedir indenização?" atr
 
 ---
 
-Próxima: [Site para dentistas: fortaleça sua clínica online](/site-para-dentistas)
+Próxima: [Site para dentistas: fortaleça sua clínica online](/site-para-dentistas/)

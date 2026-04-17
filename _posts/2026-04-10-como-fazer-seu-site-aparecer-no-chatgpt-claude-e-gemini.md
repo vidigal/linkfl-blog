@@ -246,5 +246,5 @@ Se você quer construir um site com base técnica pronta e conteúdo fácil de o
 
 Veja também:
 
-- [O que é robots.txt e como criar sem prejudicar seu SEO](/o-que-e-robots-txt-e-como-criar-sem-prejudicar-seo)
-- [O que é sitemap.xml e como enviar seu site para Google e Bing](/o-que-e-sitemap-xml-e-como-enviar-para-google-e-bing)
+- [O que é robots.txt e como criar sem prejudicar seu SEO](/o-que-e-robots-txt-e-como-criar-sem-prejudicar-seo/)
+- [O que é sitemap.xml e como enviar seu site para Google e Bing](/o-que-e-sitemap-xml-e-como-enviar-para-google-e-bing/)

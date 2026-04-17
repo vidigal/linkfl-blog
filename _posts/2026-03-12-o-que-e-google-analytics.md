@@ -102,4 +102,4 @@ O Analytics mostra o que os visitantes fazem **dentro** do site. O Search Consol
 
 ---
 
-Aprenda a proteger seu conteúdo: [O que é conteúdo duplicado e como evitar?](/o-que-e-conteudo-duplicado)
+Aprenda a proteger seu conteúdo: [O que é conteúdo duplicado e como evitar?](/o-que-e-conteudo-duplicado/)

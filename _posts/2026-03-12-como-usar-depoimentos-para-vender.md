@@ -74,4 +74,4 @@ Responda profissionalmente, resolva o problema e aprenda com o feedback. Um bom 
 
 ---
 
-Entenda presença digital completa: [O que é presença digital e por que é importante?](/o-que-e-presenca-digital)
+Entenda presença digital completa: [O que é presença digital e por que é importante?](/o-que-e-presenca-digital/)

@@ -80,4 +80,4 @@ Não. Redes sociais são canais de divulgação, mas o site é a base da sua pre
 
 ---
 
-Aprofunde no tema: [O que é marketing digital? Guia para iniciantes](/o-que-e-marketing-digital)
+Aprofunde no tema: [O que é marketing digital? Guia para iniciantes](/o-que-e-marketing-digital/)

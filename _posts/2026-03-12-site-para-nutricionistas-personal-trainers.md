@@ -59,4 +59,4 @@ O Instagram é ótimo para engajamento, mas o site aparece no Google, transmite 
 
 ---
 
-Próxima: [Site para fotógrafos e profissionais criativos](/site-para-fotografos-criativos)
+Próxima: [Site para fotógrafos e profissionais criativos](/site-para-fotografos-criativos/)

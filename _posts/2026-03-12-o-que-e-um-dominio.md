@@ -184,4 +184,4 @@ Tecnicamente sim, mas é complicado. Mudar de domínio pode prejudicar o SEO e c
 
 ---
 
-Agora que você sabe o que é um domínio, aprenda a escolher o nome perfeito: [Como escolher um bom domínio para seu site](/como-escolher-um-bom-dominio)
+Agora que você sabe o que é um domínio, aprenda a escolher o nome perfeito: [Como escolher um bom domínio para seu site](/como-escolher-um-bom-dominio/)

@@ -57,4 +57,4 @@ Ferramentas como Unbounce, Leadpages e o próprio WordPress permitem criar landi
 
 ---
 
-Próximo: [Como criar uma estratégia de conteúdo para seu site](/estrategia-de-conteudo-para-site)
+Próximo: [Como criar uma estratégia de conteúdo para seu site](/estrategia-de-conteudo-para-site/)

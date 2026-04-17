@@ -102,4 +102,4 @@ O Google recomenda que as páginas carreguem em menos de **3 segundos**. Tanto a
 
 ---
 
-Entenda a computação moderna: [O que é computação em nuvem (Cloud)?](/o-que-e-cloud-computing)
+Entenda a computação moderna: [O que é computação em nuvem (Cloud)?](/o-que-e-cloud-computing/)

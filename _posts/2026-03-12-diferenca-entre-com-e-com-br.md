@@ -182,4 +182,4 @@ ccTLD significa "Country Code Top-Level Domain" — extensões que identificam u
 
 ---
 
-Agora vamos explorar quantos reais custa manter um domínio: [Quanto custa um domínio de internet?](/quanto-custa-um-dominio)
+Agora vamos explorar quantos reais custa manter um domínio: [Quanto custa um domínio de internet?](/quanto-custa-um-dominio/)

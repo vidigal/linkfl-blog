@@ -182,4 +182,4 @@ Não. Profissionais autônomos e MEIs podem ter site normalmente. O domínio .co
 
 ---
 
-Para entender tudo que envolve ter um site, leia: [O que é preciso para ter um site? Tudo que um iniciante precisa saber](/o-que-e-preciso-para-ter-um-site)
+Para entender tudo que envolve ter um site, leia: [O que é preciso para ter um site? Tudo que um iniciante precisa saber](/o-que-e-preciso-para-ter-um-site/)

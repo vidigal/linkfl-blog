@@ -85,4 +85,4 @@ O processo de pagamento pode ser por PIX, transferência, boleto ou cartão. Pla
 
 ---
 
-Aprofunde: [O que é design responsivo e por que importa?](/o-que-e-design-responsivo)
+Aprofunde: [O que é design responsivo e por que importa?](/o-que-e-design-responsivo/)

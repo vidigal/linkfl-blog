@@ -172,4 +172,4 @@ Sim, o Google atualiza seu algoritmo centenas de vezes por ano. Mas os princípi
 
 ---
 
-Aprofunde-se: [Como um site aparece no Google?](/como-um-site-aparece-no-google)
+Aprofunde-se: [Como um site aparece no Google?](/como-um-site-aparece-no-google/)

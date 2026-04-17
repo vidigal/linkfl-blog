@@ -77,4 +77,4 @@ Geralmente sim. Sites com menos elementos, navegação clara e foco no essencial
 
 ---
 
-Vamos para segurança: [Como proteger seu site contra ataques](/como-proteger-site-contra-ataques)
+Vamos para segurança: [Como proteger seu site contra ataques](/como-proteger-site-contra-ataques/)

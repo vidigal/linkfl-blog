@@ -65,4 +65,4 @@ O Linkfl oferece o melhor custo-benefício total: R$ 29,90/mês com hospedagem, 
 
 ---
 
-Próximo: [Como acompanhar e melhorar os resultados do seu site](/como-acompanhar-resultados-do-site)
+Próximo: [Como acompanhar e melhorar os resultados do seu site](/como-acompanhar-resultados-do-site/)

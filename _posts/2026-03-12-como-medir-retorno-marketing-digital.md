@@ -77,4 +77,4 @@ Sim, mas a estratégia varia. Negócios locais se beneficiam mais de SEO local e
 
 ---
 
-Você completou 6 categorias. Agora vamos para: [Como transformar visitantes do site em clientes](/como-transformar-visitantes-em-clientes)
+Você completou 6 categorias. Agora vamos para: [Como transformar visitantes do site em clientes](/como-transformar-visitantes-em-clientes/)

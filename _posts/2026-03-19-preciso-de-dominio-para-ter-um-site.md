@@ -140,4 +140,4 @@ Não. Pessoas físicas podem registrar domínios .com.br usando o CPF no Registr
 
 ---
 
-Próximo passo na sua jornada digital: [Como criar um site para psicólogo: atraia pacientes pelo Google](/como-criar-site-para-psicologo)
+Próximo passo na sua jornada digital: [Como criar um site para psicólogo: atraia pacientes pelo Google](/como-criar-site-para-psicologo/)

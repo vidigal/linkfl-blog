@@ -111,4 +111,4 @@ Sim, se você utiliza termos como "psicólogo online" ou "nutricionista online" 
 
 ---
 
-Descubra a ferramenta essencial: [O que é Google Search Console e como usar?](/o-que-e-google-search-console)
+Descubra a ferramenta essencial: [O que é Google Search Console e como usar?](/o-que-e-google-search-console/)

@@ -146,4 +146,4 @@ Não existe limite técnico. Você pode criar quantos subdomínios quiser, mas u
 
 ---
 
-Para fechar a seção sobre domínios, aprenda a escolher o nome ideal: [Como escolher o nome da sua empresa na internet](/como-escolher-nome-para-empresa-na-internet)
+Para fechar a seção sobre domínios, aprenda a escolher o nome ideal: [Como escolher o nome da sua empresa na internet](/como-escolher-nome-para-empresa-na-internet/)

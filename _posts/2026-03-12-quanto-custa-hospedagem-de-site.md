@@ -168,4 +168,4 @@ Depende da necessidade. Para um site institucional simples, uma hospedagem bási
 
 ---
 
-Aprenda sobre segurança: [O que é SSL e HTTPS? Por que seu site precisa](/o-que-e-ssl-e-https)
+Aprenda sobre segurança: [O que é SSL e HTTPS? Por que seu site precisa](/o-que-e-ssl-e-https/)

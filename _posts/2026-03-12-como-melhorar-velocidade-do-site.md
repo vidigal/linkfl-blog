@@ -76,4 +76,4 @@ Sim, com tema leve, poucos plugins e otimizações adequadas. Mas exige trabalho
 
 ---
 
-Entenda backups: [O que é backup e por que fazer do seu site](/o-que-e-backup-de-site)
+Entenda backups: [O que é backup e por que fazer do seu site](/o-que-e-backup-de-site/)

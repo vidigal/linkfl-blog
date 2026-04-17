@@ -142,4 +142,4 @@ O Linkfl. Com a IA, seu site fica pronto em minutos. No Wix, leva horas. No Word
 
 ---
 
-Quer saber como montar o site da sua empresa rapidinho? Leia: [Como criar um site para pequena empresa em menos de 1 hora](/site-para-pequena-empresa)
+Quer saber como montar o site da sua empresa rapidinho? Leia: [Como criar um site para pequena empresa em menos de 1 hora](/site-para-pequena-empresa/)

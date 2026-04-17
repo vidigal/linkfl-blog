@@ -58,4 +58,4 @@ Acompanhe: tráfego (topo), tempo no site (meio) e contatos/vendas (fundo). Se u
 
 ---
 
-Próximo: [Como usar landing pages para captar clientes](/como-usar-landing-pages)
+Próximo: [Como usar landing pages para captar clientes](/como-usar-landing-pages/)

@@ -188,4 +188,4 @@ Nos dois, mas o site deve ser a prioridade. O site é seu, permanente e aparece 
 
 ---
 
-Vamos aprofundar a decisão: [Criar site sozinho ou contratar profissional?](/criar-site-sozinho-ou-contratar)
+Vamos aprofundar a decisão: [Criar site sozinho ou contratar profissional?](/criar-site-sozinho-ou-contratar/)

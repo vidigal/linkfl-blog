@@ -65,4 +65,4 @@ Depende. Alguns sites podem ser adaptados, outros precisam ser recriados. Se o s
 
 ---
 
-Continue aprendendo: [O que é experiência do usuário (UX)?](/o-que-e-experiencia-do-usuario)
+Continue aprendendo: [O que é experiência do usuário (UX)?](/o-que-e-experiencia-do-usuario/)

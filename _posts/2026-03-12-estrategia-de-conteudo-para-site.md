@@ -67,4 +67,4 @@ Sim! Use como base e personalize com sua experiência. A IA acelera a criação 
 
 ---
 
-Próximo: [Como integrar site e redes sociais](/como-integrar-site-redes-sociais)
+Próximo: [Como integrar site e redes sociais](/como-integrar-site-redes-sociais/)

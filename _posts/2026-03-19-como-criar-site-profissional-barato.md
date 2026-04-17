@@ -167,4 +167,4 @@ Sim! O Linkfl funciona no celular. Você pode criar e gerenciar seu site de qual
 
 ---
 
-Se precisa escolher entre fazer sozinho ou contratar, leia: [Preciso de domínio para ter um site? Entenda de uma vez](/preciso-de-dominio-para-ter-um-site)
+Se precisa escolher entre fazer sozinho ou contratar, leia: [Preciso de domínio para ter um site? Entenda de uma vez](/preciso-de-dominio-para-ter-um-site/)

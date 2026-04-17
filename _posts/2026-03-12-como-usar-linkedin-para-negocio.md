@@ -73,4 +73,4 @@ A versão básica é gratuita e suficiente para a maioria. O LinkedIn Premium of
 
 ---
 
-Próximo artigo: [Tendências de sites e marketing digital para 2026](/tendencias-marketing-digital-2026)
+Próximo artigo: [Tendências de sites e marketing digital para 2026](/tendencias-marketing-digital-2026/)

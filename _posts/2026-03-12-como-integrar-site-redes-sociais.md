@@ -61,4 +61,4 @@ Não, se complementam. As redes geram alcance e relacionamento. O site gera cred
 
 ---
 
-Próximo: [Como criar uma marca forte na internet](/como-criar-marca-forte-internet)
+Próximo: [Como criar uma marca forte na internet](/como-criar-marca-forte-internet/)

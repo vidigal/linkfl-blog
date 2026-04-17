@@ -173,4 +173,4 @@ Plataformas como o Linkfl oferecem suporte para te ajudar. Você não está sozi
 
 ---
 
-Para comparar as melhores plataformas, leia: [Wix, WordPress ou Linkfl? Qual a melhor plataforma para criar um site barato](/melhor-plataforma-criar-site-barato)
+Para comparar as melhores plataformas, leia: [Wix, WordPress ou Linkfl? Qual a melhor plataforma para criar um site barato](/melhor-plataforma-criar-site-barato/)
