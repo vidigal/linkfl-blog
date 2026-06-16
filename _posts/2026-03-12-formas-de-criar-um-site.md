@@ -8,6 +8,10 @@ read_time: 9
 breadcrumbs:
   - name: Blog
     url: /
+redirect_from:
+  - /2026/03/10/como-criar-um-site-profissional.html
+  - /como-criar-um-site-profissional/
+  - /como-criar-um-site-profissional
 ---
 
 Criar um site nunca foi tão acessível quanto hoje. Se antigamente era preciso contratar programadores caros ou aprender códigos complexos, em 2026 existem opções para todos os perfis e orçamentos — desde plataformas que usam inteligência artificial até a contratação de agências especializadas.

@@ -8,6 +8,8 @@ read_time: 7
 breadcrumbs:
   - name: Blog
     url: /
+redirect_from:
+  - /2026/03/10/como-usar-o-whatsapp-business-no-site.html
 ---
 
 No Brasil, o WhatsApp está em **99% dos smartphones**. Para muitos negócios, ele é o principal canal de vendas e atendimento. Mas você está usando todo o potencial dessa ferramenta?

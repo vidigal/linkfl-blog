@@ -8,6 +8,8 @@ read_time: 7
 breadcrumbs:
   - name: Blog
     url: /
+redirect_from:
+  - /2026/03/10/como-criar-site-para-nutricionista.html
 ---
 
 Nutricionistas e personal trainers trabalham em áreas onde a busca por profissionais pela internet cresce a cada ano. Termos como "nutricionista online", "personal trainer em [cidade]" e "dieta para emagrecer" estão entre os mais pesquisados.

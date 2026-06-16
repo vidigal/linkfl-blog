@@ -8,6 +8,8 @@ read_time: 8
 breadcrumbs:
   - name: Blog
     url: /
+redirect_from:
+  - /2026/03/10/diferenca-entre-site-e-rede-social.html
 ---
 
 Quando alguém decide criar uma presença na internet, a primeira dúvida costuma ser: "Eu preciso de um site, de um blog ou de uma loja virtual?". A resposta é: **depende do seu objetivo**.

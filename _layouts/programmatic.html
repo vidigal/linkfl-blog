@@ -80,6 +80,51 @@ layout: default
 
         <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight mt-10 mb-3">Como aparecer no Google{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}</h2>
         <p>A otimização para motores de busca (SEO) é o segredo para ser encontrado de forma orgânica. Trabalhar palavras-chave como <em>"{{ page.profissao_nome | downcase }}{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}"</em>, ter um site rápido (Core Web Vitals) e com layout responsivo são critérios essenciais que o Google usa para rankear seu negócio.</p>
+        <p>Na prática, três coisas fazem a maior diferença para um {{ page.profissao_nome | downcase }} ser encontrado: <strong class="text-gray-900">(1)</strong> um site próprio com domínio profissional; <strong class="text-gray-900">(2)</strong> um perfil no Google Meu Negócio vinculado a esse site; e <strong class="text-gray-900">(3)</strong> textos que respondam exatamente o que o cliente digita na busca{% if page.cidade_nome %} na região de {{ page.cidade_nome }}{% endif %}.</p>
+
+        <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight mt-10 mb-3">Erros que fazem o cliente desistir do seu contato</h2>
+        <p>Ter presença online não basta — alguns erros simples afastam o cliente em poucos segundos. Evite estes:</p>
+        <ul class="flex flex-col gap-3 list-none pl-0">
+          {% assign erros = "Depender só do Instagram: o perfil some no feed e não aparece quando alguém pesquisa no Google.|Não deixar claro, logo na primeira tela, o que você faz e para quem.|Esconder o contato — o cliente precisa achar seu WhatsApp em um clique.|Ter um site lento ou que funciona mal no celular, onde está a maioria dos acessos.|Não mostrar prova: sem depoimentos ou exemplos de trabalho, falta confiança para fechar." | split: "|" %}
+          {% for erro in erros %}
+          <li class="flex items-start gap-3 bg-red-50 border border-red-100 rounded-xl px-5 py-4 text-base text-gray-700">
+            <span class="inline-flex items-center justify-center w-5 h-5 bg-red-500 text-white text-xs font-bold rounded-full flex-shrink-0 mt-0.5">!</span>
+            <span>{{ erro }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+
+        <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight mt-10 mb-3">Como criar seu site de {{ page.profissao_nome | downcase }} em minutos</h2>
+        <p>Você não precisa contratar agência nem saber programar. Com a inteligência artificial do Linkfl, o processo tem três passos:</p>
+        <ol class="flex flex-col gap-3 list-none pl-0">
+          {% assign passos = "Descreva seu trabalho: conte o que você faz, suas especialidades e como o cliente entra em contato.|A IA cria o site: textos, design e estrutura otimizados para conversão, prontos em minutos.|Publique com domínio próprio: seu site no ar, indexado no Google e pronto para receber clientes no WhatsApp." | split: "|" %}
+          {% for passo in passos %}
+          <li class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 text-base text-gray-700">
+            <span class="inline-flex items-center justify-center w-6 h-6 bg-blue-600 text-white font-display text-xs font-bold rounded-full flex-shrink-0 mt-0.5">{{ forloop.index }}</span>
+            <span>{{ passo }}</span>
+          </li>
+          {% endfor %}
+        </ol>
+
+        <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight mt-10 mb-3">Perguntas frequentes</h2>
+        <div class="flex flex-col gap-4 not-prose">
+          <div class="border border-gray-100 rounded-xl px-6 py-5">
+            <p class="font-display font-bold text-gray-900 mb-1.5">Um {{ page.profissao_nome | downcase }} já tendo Instagram ainda precisa de site?</p>
+            <p class="text-base">Sim. O Instagram ajuda no relacionamento, mas some no feed e não aparece quando o cliente pesquisa no Google. O site é o seu endereço próprio na internet — aparece na busca, transmite credibilidade e centraliza seus contatos em um só lugar.</p>
+          </div>
+          <div class="border border-gray-100 rounded-xl px-6 py-5">
+            <p class="font-display font-bold text-gray-900 mb-1.5">Quanto tempo leva para o site ficar pronto?</p>
+            <p class="text-base">Com a IA do Linkfl, poucos minutos. Você descreve seu negócio e o site é gerado com textos e design profissionais, pronto para publicar.</p>
+          </div>
+          <div class="border border-gray-100 rounded-xl px-6 py-5">
+            <p class="font-display font-bold text-gray-900 mb-1.5">Preciso saber programar ou contratar alguém?</p>
+            <p class="text-base">Não. Todo o lado técnico — design, hospedagem, domínio e otimização para o Google — fica por conta da plataforma. Você foca no seu trabalho.</p>
+          </div>
+          <div class="border border-gray-100 rounded-xl px-6 py-5">
+            <p class="font-display font-bold text-gray-900 mb-1.5">Como o site ajuda a conseguir mais clientes{% if page.cidade_nome %} em {{ page.cidade_nome }}{% endif %}?</p>
+            <p class="text-base">Ele aparece quando alguém pesquisa pelo seu serviço{% if page.cidade_nome %} na sua região{% endif %}, passa credibilidade na primeira impressão e leva o visitante direto ao seu WhatsApp para fechar o atendimento.</p>
+          </div>
+        </div>
 
         {{ content }}
       </div>

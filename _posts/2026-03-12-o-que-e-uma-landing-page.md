@@ -8,6 +8,8 @@ read_time: 8
 breadcrumbs:
   - name: Blog
     url: /
+redirect_from:
+  - /o-que-e-landing-page/
 ---
 
 Se você já clicou em um anúncio na internet e foi levado para uma página pedindo seu nome e email, ou mostrando um único produto com um botão de "Comprar agora", você visitou uma **landing page**.

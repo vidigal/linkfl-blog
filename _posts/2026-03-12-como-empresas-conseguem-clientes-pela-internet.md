@@ -8,6 +8,8 @@ read_time: 8
 breadcrumbs:
   - name: Blog
     url: /
+redirect_from:
+  - /2026/03/10/como-conseguir-clientes-pela-internet.html
 ---
 
 A internet revolucionou a forma como empresas atraem clientes. Se antes era preciso depender de indicações boca a boca e anúncios caros em TV e rádio, hoje qualquer negócio pode **conquistar clientes online** com estratégias acessíveis e mensuráveis.

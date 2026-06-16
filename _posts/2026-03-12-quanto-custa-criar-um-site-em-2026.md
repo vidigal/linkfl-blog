@@ -8,6 +8,10 @@ read_time: 9
 breadcrumbs:
   - name: Blog
     url: /
+redirect_from:
+  - /2026/03/10/quanto-custa-criar-um-site.html
+  - /quanto-custa-criar-um-site/
+  - /quanto-custa-criar-um-site
 ---
 
 "Quanto custa criar um site?" é uma das perguntas mais pesquisadas por quem quer levar seu negócio para a internet. A resposta varia enormemente — de praticamente zero a dezenas de milhares de reais.
