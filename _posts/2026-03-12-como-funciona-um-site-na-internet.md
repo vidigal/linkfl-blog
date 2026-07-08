@@ -2,7 +2,6 @@
 layout: post
 title: "Como funciona um site na internet? Explicação simples e completa"
 description: "Descubra como um site funciona por trás das telas, desde o momento em que você digita o endereço até a página aparecer na tela. Explicação sem termos técnicos."
-last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-12 06:31:00 -0300
 category: "Presença Digital"
 read_time: 9

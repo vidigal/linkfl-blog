@@ -2,7 +2,6 @@
 layout: post
 title: "O que é sitemap.xml e como enviar seu site para Google e Bing"
 description: "Entenda o que é sitemap.xml, para que serve e como enviar o arquivo para Google Search Console e Bing Webmaster Tools sem complicação."
-last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-04-10 08:40:00 -0300
 category: "SEO"
 author: Linkfl

@@ -2,7 +2,6 @@
 layout: post
 title: "Preciso de domínio para ter um site? Entenda de uma vez"
 description: "Descubra se você precisa de um domínio para ter um site, o que é domínio, quanto custa e por que ele é essencial para qualquer negócio online."
-last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-19 08:30:00 -0300
 category: "Criação de Sites"
 read_time: 7
