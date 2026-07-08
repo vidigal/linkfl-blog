@@ -2,6 +2,7 @@
 layout: post
 title: "Como configurar DNS no Registro.br: passo a passo para apontar seu domínio"
 description: "Aprenda como configurar DNS no Registro.br para apontar seu domínio para um site, email ou hospedagem sem erro. Guia simples e atualizado."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-04-10 08:10:00 -0300
 category: "Presença Digital"
 author: Linkfl

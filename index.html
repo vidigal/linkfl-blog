@@ -41,14 +41,31 @@ layout: default
     </div>
 </section>
 
+<!-- CATEGORIAS -->
+<section class="max-w-5xl mx-auto px-6 pt-12">
+    <div class="flex items-baseline justify-between pb-5 mb-6 border-b-2 border-gray-100">
+        <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight">Explore por assunto</h2>
+    </div>
+    <div class="flex flex-wrap gap-2.5">
+        {% assign cats = "Criação de Sites|SEO|Vendas Online|Presença Digital|Marketing Digital|Sites por Profissão|Segurança e Performance|Estratégias Avançadas" | split: "|" %}
+        {% for cat in cats %}
+        {% assign cat_slug = cat | slugify: "latin" %}
+        <a href="{{ '/categoria/' | append: cat_slug | append: '/' | relative_url }}" class="font-display text-sm font-medium text-gray-600 bg-white border border-gray-200 hover:border-blue-300 hover:text-blue-600 hover:bg-blue-50 px-4 py-2 rounded-xl transition-all">
+            {{ cat }}
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
 <!-- POSTS LIST -->
 <section id="artigos" class="max-w-5xl mx-auto px-6 pb-20 pt-10">
     <div class="flex items-baseline justify-between pb-5 mb-8 border-b-2 border-gray-100">
         <h2 class="font-display text-xl font-bold text-gray-900 tracking-tight">Últimos Artigos</h2>
+        <a href="{{ '/indice/' | relative_url }}" class="font-display text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver todos os artigos →</a>
     </div>
 
     <div class="flex flex-col gap-4">
-        {% for post in site.posts %}
+        {% for post in site.posts limit: 15 %}
         <a href="{{ post.url | relative_url }}" class="group relative flex flex-col gap-2 bg-white border border-gray-100 rounded-2xl px-7 py-6 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-600/5 hover:-translate-y-0.5 transition-all">
             <!-- Arrow icon -->
             <span class="absolute right-6 top-1/2 -translate-y-1/2 text-blue-600 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 -translate-x-1.5 transition-all text-lg font-light">→</span>

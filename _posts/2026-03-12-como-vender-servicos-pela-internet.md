@@ -2,6 +2,7 @@
 layout: post
 title: "Como vender serviços pela internet: guia completo"
 description: "Aprenda como usar a internet para vender seus serviços. Do site ao WhatsApp, descubra as estratégias que geram clientes."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-12 08:16:00 -0300
 category: "Vendas Online"
 read_time: 8

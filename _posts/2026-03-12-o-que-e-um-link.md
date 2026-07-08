@@ -2,6 +2,7 @@
 layout: post
 title: "O que é um link na internet? Guia simples e completo"
 description: "Entenda o que é um link, como ele funciona, quais os tipos que existem e por que os links são tão importantes para a internet e para o seu site."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-12 13:17:00 -0300
 category: "Presença Digital"
 read_time: 8

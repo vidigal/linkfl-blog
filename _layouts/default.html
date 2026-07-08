@@ -38,136 +38,13 @@
     </script>
     {% endif %}
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              display: ['"Hanken Grotesk"', '"Plus Jakarta Sans"', 'sans-serif'],
-              body: ['Inter', 'sans-serif'],
-              mono: ['"JetBrains Mono"', 'monospace'],
-            },
-            colors: {
-              // Primary Indigo Digital colors mapped to blue-50..900 keys to style existing blue classes automatically
-              blue: {
-                50: '#EFF2FE',        // surface-indigo-soft (Brisa Índigo)
-                100: '#Dbe2fc',
-                200: '#Bccaf9',
-                300: '#9cb1f7',
-                400: '#6c8cfb',
-                500: '#3B59FA',        // primary (Indigo Digital)
-                600: '#3B59FA',        // primary (Indigo Digital / Main CTAs)
-                700: '#2541DC',        // primary-hover
-                800: '#1931B8',        // primary-active
-                900: '#0F172A',        // secondary (Obsidiana)
-              },
-              // Slate scale defined in design.md
-              slate: {
-                50: '#FCFCFD',        // Branco Estelar (Fundo Geral)
-                100: '#F1F5F9',       // Slate Light (Inputs desativados)
-                200: '#E2E8F0',       // Bordas padrão
-                300: '#CBD5E1',       // Bordas focadas
-                400: '#94A3B8',       // Placeholders / Ícones inativos
-                500: '#64748B',       // Legendas e textos de apoio
-                600: '#475569',       // Textos de leitura e benefícios
-                700: '#334155',       // Textos de alto contraste
-                800: '#1E293B',       // Quase-preto suave
-                900: '#0F172A',       // Títulos principais (Obsidiana)
-                950: '#090D16',       // Fundo do Modo Escuro profundo
-              },
-              // Map gray to slate to unify neutrals scale
-              gray: {
-                50: '#FCFCFD',
-                100: '#F1F5F9',
-                200: '#E2E8F0',
-                300: '#CBD5E1',
-                400: '#94A3B8',
-                500: '#64748B',
-                600: '#475569',
-                700: '#334155',
-                800: '#1E293B',
-                900: '#0F172A',
-                950: '#090D16',
-              },
-              brand: {
-                DEFAULT: '#3B59FA',
-                dark: '#2541DC',
-                light: '#EFF2FE',
-              },
-              accent: {
-                DEFAULT: '#F59E0B',    // Âmbar Dourado (Premium)
-                hover: '#D97706',
-              },
-              success: {
-                DEFAULT: '#10B981',    // Verde Esmeralda
-                soft: '#EFFDF5',
-                text: '#065F46',
-              },
-              error: {
-                DEFAULT: '#EF4444',    // Vermelho Destrutivo
-                soft: '#FEF2F2',
-                text: '#991B1B',
-              },
-              warning: {
-                DEFAULT: '#D97706',    // Alerta de Sistema
-                soft: '#FFFBEB',
-                text: '#92400E',
-              },
-              info: {
-                DEFAULT: '#0EA5E9',     // Informação / Ajuda
-                soft: '#F0F9FF',
-                text: '#075985',
-              }
-            },
-            boxShadow: {
-              overlay: '0px 10px 15px -3px rgba(15, 23, 42, 0.08)',
-            },
-            borderRadius: {
-              sm: '0.25rem',           // 4px
-              DEFAULT: '0.5rem',       // 8px
-              md: '0.75rem',           // 12px
-              lg: '1rem',              // 16px
-              xl: '1.5rem',            // 24px
-              full: '9999px',
-            }
-          }
-        }
-      }
-    </script>
+    <!-- Tailwind compilado no build (npm run build:css) — config em tailwind.config.js -->
+    <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | relative_url }}">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
-    <style>
-      body { font-family: 'Inter', sans-serif; color: #475569; }
-      .font-display { font-family: 'Hanken Grotesk', 'Plus Jakarta Sans', sans-serif; }
-      .prose h2 { font-family: 'Hanken Grotesk', 'Plus Jakarta Sans', sans-serif; font-size: 1.5rem; font-weight: 700; color: #0F172A; margin: 2.5rem 0 0.75rem; letter-spacing: -0.3px; line-height: 2rem; }
-      .prose h3 { font-family: 'Hanken Grotesk', 'Plus Jakarta Sans', sans-serif; font-size: 1.25rem; font-weight: 600; color: #0F172A; margin: 1.8rem 0 0.5rem; line-height: 1.75rem; }
-      .prose p { margin-bottom: 1.1rem; color: #334155; line-height: 1.8; font-size: 1rem; }
-      .prose a { color: #3B59FA; text-decoration: underline; text-underline-offset: 3px; }
-      .prose ul { padding-left: 1.5rem; margin-bottom: 1.2rem; list-style: disc; }
-      .prose ol { padding-left: 1.5rem; margin-bottom: 1.2rem; list-style: decimal; }
-      .prose li { margin-bottom: 0.5rem; color: #334155; }
-      .prose strong { color: #0F172A; font-weight: 600; }
-      .prose blockquote { border-left: 4px solid #3B59FA; padding: 1rem 1.25rem; background: #EFF2FE; border-radius: 0 0.5rem 0.5rem 0; margin: 1.5rem 0; font-style: italic; }
-      .prose img { max-width: 100%; border-radius: 1rem; margin: 1.5rem 0; }
-      .prose code { font-family: 'JetBrains Mono', monospace; background: #F1F5F9; border: 1px solid #E2E8F0; padding: 2px 6px; border-radius: 0.25rem; font-size: 0.8125rem; color: #1E293B; }
-      .prose pre { background: #0F172A; border-radius: 1rem; padding: 1.25rem; overflow-x: auto; margin: 1.5rem 0; }
-      .prose pre code { background: none; border: none; color: #E2E8F0; font-size: 0.8125rem; padding: 0; }
-      
-      /* Data Tables - LinkFL Design System Specification */
-      .prose table { width: 100%; border-collapse: collapse; margin: 1.5rem 0 2rem; font-size: 0.95rem; line-height: 1.6; }
-      .prose thead tr { background-color: #FCFCFD; border-bottom: 1px solid #CBD5E1; }
-      .prose th { color: #0F172A; font-weight: 600; padding: 12px 16px; text-align: left; border: 1px solid #E2E8F0; white-space: nowrap; }
-      .prose td { padding: 12px 16px; text-align: left; border-bottom: 1px solid #F1F5F9; border-left: 1px solid #E2E8F0; border-right: 1px solid #E2E8F0; vertical-align: top; color: #1E293B; }
-      .prose tbody tr:nth-child(even) { background-color: #FCFCFD; }
-      .prose tbody tr:hover { background-color: #F1F5F9; }
-      @media (max-width: 640px) { .prose th, .prose td { padding: 10px 12px; font-size: 0.875rem; } .prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; } }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-white text-gray-900 antialiased">
     <!-- Google Tag Manager (noscript) -->
@@ -206,6 +83,8 @@
             <div class="flex flex-col items-start md:items-end gap-2">
                 <a href="https://linkfl.com.br" class="text-sm text-gray-500 hover:text-blue-600 transition-colors">Criar meu Site</a>
                 <a href="{{ '/' | relative_url }}" class="text-sm text-gray-500 hover:text-blue-600 transition-colors">Blog</a>
+                <a href="{{ '/sobre/' | relative_url }}" class="text-sm text-gray-500 hover:text-blue-600 transition-colors">Sobre</a>
+                <a href="{{ '/indice/' | relative_url }}" class="text-sm text-gray-500 hover:text-blue-600 transition-colors">Todos os artigos</a>
                 <a href="https://wa.me/5532991140612" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-500 hover:text-blue-600 transition-colors">Contato</a>
             </div>
         </div>

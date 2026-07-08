@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Como criar um site sem saber programar: 5 formas fáceis"
+title: "Como criar um site sem saber programar em 2026: 5 formas fáceis"
 description: "Descubra como criar um site profissional sem saber programar. Conheça 5 formas fáceis, compare opções e escolha a melhor para seu negócio."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-19 09:15:00 -0300
 category: "Criação de Sites"
 read_time: 8

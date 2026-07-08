@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Quanto custa um domínio de internet? Guia de preços atualizado"
-description: "Descubra quanto custa registrar e manter um domínio de internet. Preços de .com.br, .com e outras extensões, com dicas para economizar."
+title: "Quanto custa um domínio em 2026? Preço do .com.br, .com e mais"
+description: "Domínio .com.br custa R$ 40 por ano no Registro.br; .com sai de R$ 50 a R$ 80. Veja a tabela de preços por extensão, custos de renovação e como economizar."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-12 14:41:00 -0300
 category: "Presença Digital"
 read_time: 7

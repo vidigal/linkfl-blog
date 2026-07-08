@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Melhores ferramentas para criar landing page no Brasil em 2026"
+title: "6 melhores ferramentas para criar landing page em 2026 (com IA)"
+description: "Comparamos as 6 melhores ferramentas para criar landing page em 2026: LinkFL (com IA), RD Station, Unbounce, Elementor, Leadpages e Carrd. Preços, prós e contras."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-25 16:00:00 -0300
 category: "Marketing Digital"
 categories: [landing-page, marketing-digital]
 tags: [ferramentas para criar landing page, criar landing page, plataformas landing page, melhor ferramenta landing page, landing page Brasil]
-description: "Conheça as melhores ferramentas para criar landing page no Brasil em 2026 e descubra qual é ideal para o seu negócio."
 author: LinkFL
 read_time: 8
 breadcrumbs:

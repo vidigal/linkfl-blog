@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Diferença entre .com e .com.br: qual extensão escolher?"
-description: "Entenda a diferença entre domínios .com e .com.br, quando usar cada um e qual é a melhor opção para o seu negócio no Brasil."
+title: ".com ou .com.br: qual escolher? Diferenças, preço e quando usar"
+description: "Entenda a diferença entre .com e .com.br: preço, credibilidade no Brasil, SEO local e quando cada extensão é a escolha certa para o seu negócio."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-12 08:37:00 -0300
 category: "Presença Digital"
 read_time: 7

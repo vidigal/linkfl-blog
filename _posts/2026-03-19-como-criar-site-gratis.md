@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Como criar um site grátis em 2026: opções, limitações e a melhor alternativa"
+title: "Como criar um site grátis em 2026 (e quando não vale a pena)"
 description: "Quer criar um site grátis? Conheça as opções disponíveis em 2026, entenda as limitações de cada uma e descubra a alternativa mais inteligente para seu negócio."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-19 08:00:00 -0300
 category: "Criação de Sites"
 read_time: 8

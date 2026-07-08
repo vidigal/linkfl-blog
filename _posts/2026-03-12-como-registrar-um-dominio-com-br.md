@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Como registrar um domínio .com.br: passo a passo completo"
-description: "Aprenda como registrar seu domínio .com.br no Registro.br de forma simples. Tutorial passo a passo com imagens e dicas para não errar."
+title: "Como registrar um domínio .com.br em 2026: passo a passo (R$ 40/ano)"
+description: "Registre seu domínio .com.br no Registro.br por R$ 40 por ano. Passo a passo do cadastro ao pagamento, com dicas para não errar e problemas comuns resolvidos."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-12 07:06:00 -0300
 category: "Presença Digital"
 read_time: 8

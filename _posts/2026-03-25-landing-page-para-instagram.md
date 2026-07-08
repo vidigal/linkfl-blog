@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Landing page para Instagram: como criar uma que converte"
+description: "Aprenda a criar uma landing page para o link da bio do Instagram que transforma seguidores em clientes: o que ela precisa ter, erros comuns e como fazer em minutos."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-25 17:00:00 -0300
 category: "Marketing Digital"
 categories: [landing-page, marketing-digital]
 tags: [landing page para Instagram, link na bio, landing page Instagram, página de captura Instagram, converter seguidores]
-description: "Aprenda a criar uma landing page para Instagram que converte seguidores em clientes. Dicas práticas e passo a passo."
 author: LinkFL
 read_time: 7
 breadcrumbs:

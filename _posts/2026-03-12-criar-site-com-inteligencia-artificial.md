@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Como criar um site com inteligência artificial em 2026"
-description: "Descubra como a inteligência artificial revolucionou a criação de sites. Saiba como criar um site profissional com IA em minutos, sem saber programar."
+description: "Veja como criar um site profissional com IA em minutos: como funciona na prática, o que a IA gera sozinha, limitações reais e quanto custa no Brasil em 2026."
+last_modified_at: 2026-07-08 12:00:00 -0300
 date: 2026-03-12 08:23:00 -0300
 category: "Criação de Sites"
 read_time: 8
